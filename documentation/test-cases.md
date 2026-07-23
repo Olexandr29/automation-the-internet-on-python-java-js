@@ -1,5 +1,7 @@
 
-<details><summary> <b>Test Suit - Login(Form Authentication)</b> </summary>
+# Test Suit - Login(Form Authentication)
+<details><summary> <b>TC1-20
+</b> </summary>
 
 ## TC1 – Successful login
 
@@ -16,7 +18,6 @@
 - The alert “You logged into a secure area!” is displayed
 - The message “Welcome to the Secure Area. When you are done click logout below.” is displayed
 - The Logout button is displayed.
-
 
 ## TC2 – Unsuccessful login with empty credentials
 ### Precondition:
@@ -68,7 +69,6 @@
 ### Expected result:
 - The alert “Your username is invalid!” is displayed on the Login page
 
-
 ## TC7 – Unsuccessful login with both Invalid Username and Password
 ### Precondition:
 - User is on the Login page: https://the-internet.herokuapp.com/login
@@ -92,7 +92,6 @@
 - The alert "You logged out of the secure area!" is displayed
 - The Login button is displayed
 
-
 ## TC9 – User cannot access the Secure Area after logout
 ### Preconditions:
 - Username: tomsmith
@@ -108,7 +107,6 @@
   - User remains on the Login page
   - The Login button is displayed 
 
-
 ## TC10 –  Login with a Username that has leading spaces
 ### Precondition:
 - User is on the Login page: https://the-internet.herokuapp.com/login
@@ -118,7 +116,6 @@
 3. Click the Login button
 ### Expected result:
 - The alert “Your username is invalid!” is displayed on the Login page
-
 
 ## TC11 –  Login with a password that has leading spaces
 ### Precondition:
@@ -130,7 +127,6 @@
 ### Expected result:
 - The alert “Your password is invalid!” is displayed on the Login page
 
-
 ## TC12 –  Login with a Username that has trailing spaces
 ### Precondition:
 - User is on the Login page: https://the-internet.herokuapp.com/login
@@ -140,7 +136,6 @@
 3. Click the Login button
 ### Expected result:
 - The alert “Your username is invalid!” is displayed on the Login Page
-
 
 ## TC13 –  Login with a Password that has trailing spaces
 ### Precondition:
@@ -152,7 +147,6 @@
 ### Expected result:
 - The alert “Your password is invalid!” is displayed on the Login page
 
-
 ## TC14 –  Login with a Username that has a different case
 ### Precondition:
 - User is on the Login page: https://the-internet.herokuapp.com/login
@@ -162,7 +156,6 @@
 3. Click the Login button
 ### Expected result:
 - The alert “Your username is invalid!” is displayed on the Login page
-
 
 ## TC15 –  Login with a Password that has a different case
 ### Precondition:
@@ -174,7 +167,6 @@
 ### Expected result:
 - The alert “Your password is invalid!” is displayed on the Login page
 
-
 ## TC16 –  Login with SQL Injection in Username
 ### Precondition:
 - User is on the Login page: https://the-internet.herokuapp.com/login
@@ -184,7 +176,6 @@
 3. Click the Login button
 ### Expected result:
 - The alert “Your username is invalid! ” is displayed on the Login page
-
 
 ## TC17 –  Login with SQL Injection in Password
 ### Precondition:
@@ -196,7 +187,6 @@
 ### Expected result:
 - The alert “Your password is invalid!” is displayed on the Login page
 
-
 ## TC18 –  Login with XSS in Username
 ### Precondition:
 - User is on the Login page: https://the-internet.herokuapp.com/login
@@ -206,7 +196,6 @@
 3. Click the Login button
 ### Expected result:
 - The alert “Your username is invalid! ” is displayed on the Login page
-
 
 ## TC19 –  Login with XSS in Password
 ### Precondition:
@@ -228,7 +217,9 @@
 
 </details>
 
-<details><summary> <b>Test Suit - Dropdown</b> </summary>
+# Test Suit - Dropdown
+
+<details><summary> <b>TC21-30</b> </summary>
 
 ## TC21 – Verify default state
 ### Precondition:
@@ -239,11 +230,19 @@
 ### Expected result:
 - The Dropdown page is opened successfully.
 - The dropdown is visible.
-- The dropdown is enabled.
-- The dropdown is focusable.
 - The default selected value is "Please select an option".
 
-## TC22 – Verify all available options are displayed
+## TC22 – Verify dropdown opens on click
+### Precondition
+- User is on the Dropdown page.
+### Steps to reproduce
+1. Click anywhere inside the dropdown (e.g., the currently selected value, which is "Please select an option" by default, or any other area of the dropdown).
+2. Click outside the dropdown.
+### Expected result
+- The dropdown list is opened after step 1.
+- The dropdown list is closed after step 2.
+
+## TC23 – Verify all available options are displayed
 ### Precondition
 - User is on the Dropdown page.
 ### Steps to reproduce
@@ -257,29 +256,7 @@
     - Option 2
 - No unexpected options are displayed.
 
-## TC23 – Verify dropdown opens when clicking the selected value 
-### Precondition
-- User is on the Dropdown page.
-### Steps to reproduce
-1. Click the currently selected value (Please select an option)
-2. Click outside the dropdown
-### Expected result
-- The dropdown list is opened after step 1.
-- All available options are displayed.
-- The dropdown list is closed after step 2.
-
-## TC24 – Verify dropdown opens when clicking dropdown arrow 
-### Precondition
-- User is on the Dropdown page.
-### Steps to reproduce
-1. Click the dropdown arrow
-2. Press Escape key
-### Expected result
-- The dropdown list is opened after step 1.
-- All available options are displayed.
-- The dropdown list is closed after step 2.
-
-## TC25 – Select Option 1 using mouse
+## TC24 – Select Option 1 using mouse
 ### Precondition:
 - User is on the Dropdown page.
 ### Steps to reproduce:
@@ -288,7 +265,7 @@
 ### Expected result:
 - Option 1 became the selected value.
 
-## TC26 – Select Option 2 and verify the selected option is highlighted when reopen the dropdown
+## TC25 – Select Option 2 and verify the selected option is highlighted when reopen the dropdown
 ### Precondition:
 - User is on the Dropdown page.
 ### Steps to reproduce:
@@ -300,7 +277,7 @@
 - Option 2 is selected after step 2.
 - The dropdown is opened and the Option 2 is highlighted as selected after step 3.
 
-## TC27 – Change selected option using keyboard arrow keys
+## TC26 – Change selected option using keyboard arrow keys
 ### Precondition:
 - User is on the Dropdown page.
 - The dropdown is focused
@@ -312,13 +289,13 @@
 - After pressing Arrow Down, Option 2 becomes selected.
 - After pressing Arrow Up, Option 1 becomes selected.
 
-## TC28 – Navigate, select and change the dropdown option using keyboard
+## TC27 – Navigate, select and change the dropdown option using keyboard
 ### Precondition:
 - User is on the Dropdown page.
 ### Steps to reproduce:
 1. Press the Tab key until the dropdown will be focused
 2. Press Enter to open the dropdown
-3. Press Arrow Down to select Option 1
+3. Press Arrow Down and ENTER to select Option 1
 4. Press Arrow Down to change selected option to Option 2
 5. Press Arrow Up to select Option 1
 ### Expected result:
@@ -328,7 +305,7 @@
 - The Option 2 is selected after step 4.
 - The Option 1 is selected after step 5.
 
-## TC29 – Verify the selected option persists after closing and reopening the dropdown
+## TC28 – Verify the selected option persists after closing and reopening the dropdown
 ### Precondition:
 - User is on the Dropdown page.
 ### Steps to reproduce:
@@ -338,7 +315,7 @@
 - The Option 2 is selected
 - The previously selcted value Option 2 is displayed(selected) when the dropdown is reopened
 
-## TC30 – Verify the Arrow Upd and Down on the first and last options
+## TC29 – Verify the Arrow Upd and Down on the first and last options
 ### Precondition:
 - User is on the Dropdown page.
 - The dropdown is opened.
@@ -352,7 +329,7 @@
 - The Option 2 is selected after step 2.
 - The selected value does not change. The Option 2 remains selected after step 3.
 
-## TC31 – Verify only one option can be selected at a time
+## TC30 – Verify only one option can be selected at a time
 ### Precondition:
 - User is on the Dropdown page.
 - The dropdown is opened.
