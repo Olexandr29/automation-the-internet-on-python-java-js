@@ -1,5 +1,5 @@
 
-# Test Suit - Login(Form Authentication)
+# Test Suite - Login(Form Authentication)
 <details><summary> <b>TC1-20
 </b> </summary>
 
@@ -217,7 +217,7 @@
 
 </details>
 
-# Test Suit - Dropdown
+# Test Suite - Dropdown
 
 <details><summary> <b>TC21-30</b> </summary>
 
@@ -232,22 +232,12 @@
 - The dropdown is visible.
 - The default selected value is "Please select an option".
 
-## TC22 – Verify dropdown opens on click
-### Precondition
-- User is on the Dropdown page.
-### Steps to reproduce
-1. Click anywhere inside the dropdown (e.g., the currently selected value, which is "Please select an option" by default, or any other area of the dropdown).
-2. Click outside the dropdown.
-### Expected result
-- The dropdown list is opened after step 1.
-- The dropdown list is closed after step 2.
 
-## TC23 – Verify all available options are displayed
+## TC22 – Verify all available options are displayed
 ### Precondition
 - User is on the Dropdown page.
 ### Steps to reproduce
-1. Click the dropdown.
-2. Observe the list of available options.
+1. Open the dropdown.
 ### Expected result
 - The dropdown list is opened.
 - The following options are displayed:
@@ -256,28 +246,30 @@
     - Option 2
 - No unexpected options are displayed.
 
-## TC24 – Select Option 1 using mouse
+## TC23 – Select Option 1 using mouse
 ### Precondition:
 - User is on the Dropdown page.
 ### Steps to reproduce:
 1. Click the dropdown
 2. Select Option 1
 ### Expected result:
-- Option 1 became the selected value.
+- Option 1 is selected.
 
-## TC25 – Select Option 2 and verify the selected option is highlighted when reopen the dropdown
+## TC24 – Verify option remains selected after reopening and closing
 ### Precondition:
 - User is on the Dropdown page.
 ### Steps to reproduce:
 1. Click the dropdown
 2. Select Option 2
 3. Open dropdown again
+4. Close dropdown
 ### Expected result:
 - The dropdown is opened after step 1.
 - Option 2 is selected after step 2.
 - The dropdown is opened and the Option 2 is highlighted as selected after step 3.
+- The Option 2 remain selected after closing.
 
-## TC26 – Change selected option using keyboard arrow keys
+## TC25 – Change selected option using keyboard arrow keys
 ### Precondition:
 - User is on the Dropdown page.
 - The dropdown is focused
@@ -289,33 +281,23 @@
 - After pressing Arrow Down, Option 2 becomes selected.
 - After pressing Arrow Up, Option 1 becomes selected.
 
-## TC27 – Navigate, select and change the dropdown option using keyboard
+## TC26 – Navigate, select and change the dropdown option using keyboard
 ### Precondition:
 - User is on the Dropdown page.
 ### Steps to reproduce:
-1. Press the Tab key until the dropdown will be focused
+1. Press Tab key until the dropdown receives focus
 2. Press Enter to open the dropdown
 3. Press Arrow Down and ENTER to select Option 1
 4. Press Arrow Down to change selected option to Option 2
 5. Press Arrow Up to select Option 1
 ### Expected result:
-- The Drodown is focused after step 1.
+- The Dropdown is focused after step 1.
 - The Dropdown is opened and all available options are displayed after step 2.
 - The Option 1 is selected after step 3.
 - The Option 2 is selected after step 4.
 - The Option 1 is selected after step 5.
 
-## TC28 – Verify the selected option persists after closing and reopening the dropdown
-### Precondition:
-- User is on the Dropdown page.
-### Steps to reproduce:
-1. Select Option 2
-2. Open the dropdown again
-### Expected result:
-- The Option 2 is selected
-- The previously selcted value Option 2 is displayed(selected) when the dropdown is reopened
-
-## TC29 – Verify the Arrow Upd and Down on the first and last options
+## TC27 – Verify the Arrow Up and Down on the first and last options
 ### Precondition:
 - User is on the Dropdown page.
 - The dropdown is opened.
@@ -329,19 +311,39 @@
 - The Option 2 is selected after step 2.
 - The selected value does not change. The Option 2 remains selected after step 3.
 
-## TC30 – Verify only one option can be selected at a time
+## TC28 – Verify only one option can be selected at a time
 ### Precondition:
 - User is on the Dropdown page.
 - The dropdown is opened.
 - The Option 1 is selected.
 ### Steps to reproduce:
-1. Open the dropdown again
-2. Select Option 2
+1. Select Option 2
 ### Expected result:
-- Option 2 is selected after step 2.
+- Option 2 is selected.
 - Option 1 is no longer selected.
 - Only one option is selected at a time.
 
+## TC29 – Verify selected option after refresh
+### Precondition:
+- User is on the Dropdown page.
+- The Option 1 is selected.
+### Steps to reproduce:
+1. Click the browser Refresh button
+### Expected result:
+- The default value "Please select an option" is selected.
+
+## TC30 – Verify browser Back and Forward navigation behaviour
+### Precondition:
+- User is on the Dropdown page.
+- The Option 2 is selected.
+### Steps to reproduce:
+1. Click the browser Back button
+2. Click the browser Forward button
+### Expected result:
+- The Home page is opened after step 1.
+- The "Dropdown" link is visible.
+- The Dropdown page is opened after step 2.
+- The Option 2 is selected.
 
 
 </details>
