@@ -13,7 +13,7 @@ The main goal is to demonstrate practical automation testing skills, software en
 - Showcase practical QA automation skills via this project.
 - Compare automation approaches across multiple programming languages.
 - Demonstrate test design, framework architecture, Git workflow, CI\CD, and project management.
-- Expand the project incrementally with new features, test coverage.
+- Expand the project incrementally with new features and test coverage.
 
 ## Project Management
 [GitHub Project (planning, task tracking, roadmap and progress)](https://github.com/users/Olexandr29/projects/3/views/1)
@@ -25,3 +25,4 @@ The main goal is to demonstrate practical automation testing skills, software en
 
 ### Documentation
 - [Test Cases]( https://github.com/Olexandr29/automation-the-internet-on-python-java-js/blob/main/documentation/test-cases.md)
+- [Sprint Report](documentation/sprints/sprint-01-report.md)
