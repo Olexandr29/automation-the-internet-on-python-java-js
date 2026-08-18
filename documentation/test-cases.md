@@ -347,3 +347,67 @@
 
 
 </details>
+
+# Test Suite - Checkbox
+<details><summary> <b>TC31-35
+</b> </summary>
+
+## TC31 – Verify Checkboxes are visible
+### Precondition:
+- The checkbox feature is available.
+### Steps to reproduce:
+1. Open the Home page https://the-internet.herokuapp.com/
+2. Click the "Checkboxes" link to open the Checkboxes page
+### Expected result:
+- The Checkboxes page is opened successfully.
+- The "checkbox 1" and "checkbox 2" are visible.
+
+## TC32 – Verify Checkboxes initial state
+### Precondition:
+- User is on the Home page.
+### Steps to reproduce:
+1. Click the "Checkboxes" link to open the Checkboxes page
+### Expected result:
+- The "checkbox 1" is unchecked.
+- The "checkbox 2" is checked.
+
+## TC33 – Verify checkboxes state changes correctly
+### Precondition:
+- User is on the Checkboxes page.
+### Steps to reproduce:
+1. Click the checkbox "checkbox 1"
+2. Click the "checkbox 1" again
+3. Click the "checkbox 2"
+4. Click the "checkbox 2" again
+### Expected result:
+- The "checkbox 1" is checked after first click.
+- The "checkbox 1" is unchecked after second click.
+- The "checkbox 2" is unchecked after first click.
+- The "checkbox 2" is checked after second click.
+
+## TC34 – Verify checkboxes state after refresh
+### Precondition:
+- User is on the Checkboxes page.
+- The "checkbox 1" and "checkbox 2" are checked.
+### Steps to reproduce:
+1. Click the browser Refresh button
+### Expected result:
+- The "checkbox 1" is unchecked.
+- The "checkbox 2" is checked.
+
+## TC35 – Verify checkbox state chnges using keyboard
+### Precondition:
+- User is on the Checkboxes page.
+### Steps to reproduce:
+1. Navigate to the checkbox using the Tab key
+2. Press the Space key to change state for "checkbox 1"
+3. Repeat steps 1-2 for "checkbox 2"
+### Expected result:
+- Checkbox state toggles successfully
+- Focus indicator is visible
+- The "checkbox 1" is checked.
+- The "checkbox 2" is unchecked.
+
+
+
+</details>
