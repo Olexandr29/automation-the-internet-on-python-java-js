@@ -40,24 +40,18 @@ The report was created, but the issue has not been closed yet.
 	- Issue #6 Java: Extract reusable URLs and imports to page_data and base_test
 - Issue #7 [Unify and extract reusable methods from specific pages to BasePage](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/7):
 	- Issue #12 JS: Unify and extract reusable methods from specific pages to BasePage
-
-...
+	- Issue #10 Java: Unify and extract reusable methods from specific pages to BasePage
+- Issue #8 [Java: Unify Logger and Allure steps descriptions](https://github.com/Olexandr29/automation-the-internet-java/issues/8)
 - Issue #88 [Create Report for Sprint 2](https://github.com/Olexandr29/automation-the-internet-python/issues/88)
 
 
-
-**Total: 30 Issues**
+**Total: 31 Issues**
 
 
 ## Completed work
 
-<!-- **Completed: 6 / 18 Issues**
-**Completion: 33,3%** -->
-<!-- **Completed: 14 / 29 Issues**
-**Completion: 48,3%** -->
-
-**Completed: 20 / 30 Issues**
-**Completion: 66,7%**
+**Completed: 30 / 31 Issues**
+**Completion: 96,8%**
 
 
 ### Completed:
@@ -75,48 +69,46 @@ The report was created, but the issue has not been closed yet.
 	- Issue #76 Python: Test Automation for Checkbox feature
  	- Issue #77 JS: Test Automation for Checkbox feature
 	- Issue #78 Java: Test Automation for Checkbox feature
-<!-- - Issue #82 [Attach screenshots on failure](https://github.com/Olexandr29/automation-the-internet-python/issues/82): -->
+- Issue #82 [Attach screenshots on failure](https://github.com/Olexandr29/automation-the-internet-python/issues/82):
 	- Issue #83 Python: Attach screenshots on failure
 	- Issue #84 JS: Attach screenshots on failure
-<!-- - Issue #85 Java: Attach screenshots on failure -->
-<!-- - Issue #88 [Create Report for Sprint 2](https://github.com/Olexandr29/automation-the-internet-python/issues/88) -->
+- Issue #85 Java: Attach screenshots on failure
+- Issue #88 [Create Report for Sprint 2](https://github.com/Olexandr29/automation-the-internet-python/issues/88)
 - Issue #95 [Fix failing logout tests in remote execution](https://github.com/Olexandr29/automation-the-internet-python/issues/95):
 	- Issue #96 Python: Fix failing logout tests in remote execution
 	- Issue #8 JS: Fix failing logout tests in remote execution
 	- Issue #5 Java: Fix failing logout tests in remote execution
-<!-- - Issue #6 [Extract reusable URLs and imports to page_data and base_test](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/6): -->
+- Issue #6 [Extract reusable URLs and imports to page_data and base_test](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/6):
 	- Issue #93 Python: Extract reusable URLs and imports to page_data and base_test
 	- Issue #10 JS: Extract reusable URLs and imports to page_data and base_test
-<!-- - Issue #6 Java: Extract reusable URLs and imports to page_data and base_test -->
-<!-- - Issue #7 [Unify and extract reusable methods from specific pages to BasePage](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/7): -->
+- Issue #6 Java: Extract reusable URLs and imports to page_data and base_test
+- Issue #7 [Unify and extract reusable methods from specific pages to BasePage](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/7):
 	- Issue #12 JS: Unify and extract reusable methods from specific pages to BasePage
 	- Issue #10 Java: Unify and extract reusable methods from specific pages to BasePage
-
-
+- Issue #8 [Java: Unify Logger and Allure steps descriptions](https://github.com/Olexandr29/automation-the-internet-java/issues/8)
 
 
 
 ### Not completed:
-
+- Issue #88 [Create Report for Sprint 2](https://github.com/Olexandr29/automation-the-internet-python/issues/88)
+(will be completed after closing PR and publih this Report)
 
 ## Sprint Review
 ### GitHub Project Board
-<!-- ![GitHub Project Board](documentation/images/sprint-1/github-project-dashboard.png) -->
+![GitHub Project Board](documentation/images/sprint-2/issues-with-status-done.png)
 
 ### Sprint Progress
-<!-- 6 / 18 Issues completed – 33,3% -->
-<!-- ![GitHub Project - sprint-2 progress](documentation/images/sprint-2/priliminary-august16-21.png) -->
-
-<!-- 14 / 29 Issues completed – 48,3% -->
-<!-- ![GitHub Project - sprint-2 progress](documentation/images/sprint-2/priliminary-august16-september1.png) -->
-
-20 / 30 Issues сompleted - 66,7%
+30 / 31 Issues сompleted - 96,8%
 
 [View current progress →](#completed-work)
 
-![GitHub Project - sprint-2 progress](documentation/images/sprint-2/priliminary-august16-september7(bar).png)
+![GitHub Project - sprint-2 progress](documentation/images/sprint-2/august16-september11-chart(bar).png)
 
-![GitHub Project - sprint-2 progress](documentation/images/sprint-2/priliminary-august16-september7(column).png)
+![GitHub Project - sprint-2 progress](documentation/images/sprint-2/august16-september11-chart(column).png)
+
+![GitHub Project - sprint-2 progress](documentation/images/sprint-2/august16-september11-chart(staked-area).png)
+
+
 
 
 ### Pull Requests
@@ -174,8 +166,9 @@ After verifying the feature the tests were fixed!
 ## Sprint Retrospective
 
 ### What Went Well
-- There was no blockers and the plan for the week was overdone
+- Completed all tasks.
 - The revert was used to roll back to stable previous commit.
+- The ammend was used for rename a commit.
 - No bugs were found during testig. To verify the "Attach screenshots on failure" functionality, one of the tests was intentionally made to fail, a screenshot was made during test  failed, and succesfully attached to the results.
 - The problem (- The script inside a PR "Related to issue #number" closed the GitHub Project Card instead of mark that the card just related to the specific issue.
 This is a problem for issues that cannot be completed with a single PR and require multiple PRs to finish the work.) was uncovered and solved!
@@ -190,11 +183,15 @@ This is a problem for issues that cannot be completed with a single PR and requi
 This is a problem for issues that cannot be completed with a single PR and require multiple PRs to finish the work.
 - There was a situation when the UAT was unavaliable locally and one commit was pushed without test verifying - the result was bad.
 - Two issues were automatically moved to Done after their linked Pull Requests were closed, although the work was not completed. After moving the issue back to In Progress, GitHub Project Insights continued to count them as completed, resulting in two extra completed issues.
+- The scheduled workflow run started later(for different repo) than the configured time. 
+
+
 
 ### Improvement Actions
 - Allocate additional time for "Defect Reporting" during the "Test Design for the {specific} feature" task, if defects are found.
 - Discovered how to select necessary repo for the issue when you work on GitHub Project.
 - Discovered how turn off the automaticaly close an issue when the issue is not done.
+- Took into account that on GitHub free plan a scheduled workflow run started later than the configured time. And discovered the reason, it's because GitHub Actions scheduled workflows are not guaranteed to start exactly at the specified time and may be delayed due to GitHub Actions load or runner availability.
 
 
 
