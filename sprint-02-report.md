@@ -95,18 +95,18 @@ The report was created, but the issue has not been closed yet.
 
 ## Sprint Review
 ### GitHub Project Board
-![GitHub Project Board](documentation/images/sprint-2/issues-with-status-done.png)
+![GitHub Project Board](documentation/images/sprint-2/12.png)
 
 ### Sprint Progress
-30 / 31 Issues сompleted - 96,8%
+31 / 31 Issues сompleted - 100%
 
 [View current progress →](#completed-work)
 
-![GitHub Project - sprint-2 progress](documentation/images/sprint-2/august16-september11-chart(bar).png)
+![GitHub Project - sprint-2 progress](documentation/images/sprint-2/2.2-bar.png)
 
-![GitHub Project - sprint-2 progress](documentation/images/sprint-2/august16-september11-chart(column).png)
+![GitHub Project - sprint-2 progress](documentation/images/sprint-2/2.1-column.png)
 
-![GitHub Project - sprint-2 progress](documentation/images/sprint-2/august16-september11-chart(staked-area).png)
+![GitHub Project - sprint-2 progress](documentation/images/sprint-2/2.3-staked-area.png)
 
 
 
@@ -167,11 +167,11 @@ After verifying the feature the tests were fixed!
 
 ### What Went Well
 1) Completed all tasks.
-2) No bugs were found during testig. To verify the "Attach screenshots on failure" functionality, one of the tests was intentionally made to fail, a screenshot was made during test  failed, and succesfully attached to the results.
+2) No bugs were found during testig. To verify the "Attach screenshots on failure" functionality, one of the tests(for each language) was intentionally made to fail, a screenshot was made during test failed, and succesfully attached to the results.
 3) The problem #1 from [What Didn't Go Well](what-didn't-go-well) was uncovered and solved!
 4) Started working on Sprint report since the first week, created PR for the issue "Create Report for Sprint" and made commits every weeks, and close the PR in the end of the sprint.
 5) Sprint planning and task estimates were more realistic and were based on the experience from the previous Sprint.
-6) There is a time to search and create plan for Docker implementation on last week
+6) There is a time to search and create plan for Docker implementation.
 7) Gained practical experience with less commonly used Git commands and techniques:
 	- Used two-lines commit messages for more complex changes.
 	- Used 'git revert' to roll back to a stable previous commit.
@@ -182,7 +182,7 @@ After verifying the feature the tests were fixed!
 1. The script inside a PR "Related to issue #number" closed the GitHub Project Card instead of mark that the card just related to the specific issue.
 This is a problem for issues that cannot be completed with a single PR and require multiple PRs to finish the work.
 2. There was a situation when the UAT was unavaliable locally and one commit was pushed without test verifying - the result was bad.
-3. The scheduled workflow run started later(for different repo) than the configured time.
+3. The scheduled workflow started later than the configured time.
 4. Didn't take into account that the Sprint Report task should be completed only after closing the PR and task, because the statistics still show this task as unfinished while the PR is open. After closing the PR, the statistics are updated with the final metrics, so the Sprint Report has to be updated again with the final numbers and screenshots.
 
 
