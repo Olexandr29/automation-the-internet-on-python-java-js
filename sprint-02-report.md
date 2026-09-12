@@ -50,8 +50,8 @@ The report was created, but the issue has not been closed yet.
 
 ## Completed work
 
-**Completed: 30 / 31 Issues**
-**Completion: 96,8%**
+**Completed: 31 / 31 Issues**
+**Completion: 100%**
 
 
 ### Completed:
@@ -86,12 +86,12 @@ The report was created, but the issue has not been closed yet.
 	- Issue #12 JS: Unify and extract reusable methods from specific pages to BasePage
 	- Issue #10 Java: Unify and extract reusable methods from specific pages to BasePage
 - Issue #8 [Java: Unify Logger and Allure steps descriptions](https://github.com/Olexandr29/automation-the-internet-java/issues/8)
+- Issue #88 [Create Report for Sprint 2](https://github.com/Olexandr29/automation-the-internet-python/issues/88)
 
 
 
 ### Not completed:
-- Issue #88 [Create Report for Sprint 2](https://github.com/Olexandr29/automation-the-internet-python/issues/88)
-(will be completed after closing PR and publih this Report)
+- None
 
 ## Sprint Review
 ### GitHub Project Board
@@ -115,7 +115,7 @@ The report was created, but the issue has not been closed yet.
 
 - automation-the-internet-on-python-java-js:
 
-2 created, 1 merged
+2 created, 2 merged
 
 - automation-the-internet-on-js:
 
@@ -127,13 +127,13 @@ The report was created, but the issue has not been closed yet.
 
 - automation-the-internet-on-java:
 
-3 created, 3 merged
+6 created, 6 merged
 
 
 ---
-18 PRs created
+21 PRs created
 
-17 PRs merged
+21 PRs merged
 
 ### Test Automation
 5 x 3 = 15 automated tests implemented
@@ -166,24 +166,24 @@ After verifying the feature the tests were fixed!
 ## Sprint Retrospective
 
 ### What Went Well
-- Completed all tasks.
-- The revert was used to roll back to stable previous commit.
-- The ammend was used for rename a commit.
-- No bugs were found during testig. To verify the "Attach screenshots on failure" functionality, one of the tests was intentionally made to fail, a screenshot was made during test  failed, and succesfully attached to the results.
-- The problem (- The script inside a PR "Related to issue #number" closed the GitHub Project Card instead of mark that the card just related to the specific issue.
-This is a problem for issues that cannot be completed with a single PR and require multiple PRs to finish the work.) was uncovered and solved!
-- Started working on Sprint report since first week, created PR for the issue "Create Report for Sprint" and planed to make commits every weeks, and close the PR in the end of the sprint
-- Sprint planning and task estimates were more realistic and were based on the experience from the previous Sprint.
-- For complicated situation used two-lines commit messages
-- There is a time to search and create plan for Docker implementation on last week
+1) Completed all tasks.
+2) No bugs were found during testig. To verify the "Attach screenshots on failure" functionality, one of the tests was intentionally made to fail, a screenshot was made during test  failed, and succesfully attached to the results.
+3) The problem #1 from [What Didn't Go Well](what-didn't-go-well) was uncovered and solved!
+4) Started working on Sprint report since the first week, created PR for the issue "Create Report for Sprint" and made commits every weeks, and close the PR in the end of the sprint.
+5) Sprint planning and task estimates were more realistic and were based on the experience from the previous Sprint.
+6) There is a time to search and create plan for Docker implementation on last week
+7) Gained practical experience with less commonly used Git commands and techniques:
+	- Used two-lines commit messages for more complex changes.
+	- Used 'git revert' to roll back to a stable previous commit.
+	- Used 'git --ammend' to rename a commit.
 
 
 ### What Didn't Go Well
-- The script inside a PR "Related to issue #number" closed the GitHub Project Card instead of mark that the card just related to the specific issue.
+1. The script inside a PR "Related to issue #number" closed the GitHub Project Card instead of mark that the card just related to the specific issue.
 This is a problem for issues that cannot be completed with a single PR and require multiple PRs to finish the work.
-- There was a situation when the UAT was unavaliable locally and one commit was pushed without test verifying - the result was bad.
-- Two issues were automatically moved to Done after their linked Pull Requests were closed, although the work was not completed. After moving the issue back to In Progress, GitHub Project Insights continued to count them as completed, resulting in two extra completed issues.
-- The scheduled workflow run started later(for different repo) than the configured time. 
+2. There was a situation when the UAT was unavaliable locally and one commit was pushed without test verifying - the result was bad.
+3. The scheduled workflow run started later(for different repo) than the configured time.
+4. Didn't take into account that the Sprint Report task should be completed only after closing the PR and task, because the statistics still show this task as unfinished while the PR is open. After closing the PR, the statistics are updated with the final metrics, so the Sprint Report has to be updated again with the final numbers and screenshots.
 
 
 
@@ -192,6 +192,7 @@ This is a problem for issues that cannot be completed with a single PR and requi
 - Discovered how to select necessary repo for the issue when you work on GitHub Project.
 - Discovered how turn off the automaticaly close an issue when the issue is not done.
 - Took into account that on GitHub free plan a scheduled workflow run started later than the configured time. And discovered the reason, it's because GitHub Actions scheduled workflows are not guaranteed to start exactly at the specified time and may be delayed due to GitHub Actions load or runner availability.
+
 
 
 
