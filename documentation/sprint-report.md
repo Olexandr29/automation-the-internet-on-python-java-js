@@ -80,12 +80,12 @@ The goal of Sprint 1 is to verify the new Dropdown feature and scale the framewo
 
 ## Sprint Review
 ### GitHub Project Board
-![GitHub Project Board](documentation/images/sprint-1/github-project-dashboard.png)
+![GitHub Project Board](images/sprint-1-1-github-project-dashboard.png)
 
 ### Sprint Progress
 22 / 27 Issues completed – 81,5%
 
-![GitHub Project - sprint-1 progress](documentation/images/sprint-1/github-sprint-progress.png)
+![GitHub Project - sprint-1 progress](images/sprint-1-2-sprint-progress.png)
 
 ### Pull Requests
 11 PRs created
@@ -104,18 +104,19 @@ The goal of Sprint 1 is to verify the new Dropdown feature and scale the framewo
 <table>
   <tr>
     <td width="50%">
-      <img src="documentation/images/sprint-1/allure-overview.png" width="100%">
+      <img src="images/sprint-1-3.1-allure-overview.png" width="100%">
     </td>
     <td width="50%">
-      <img src="documentation/images/sprint-1/allure-graphs.png" width="100%">
+      <img src="images/sprint-1-3.2-allure-graphs.png" width="100%">
     </td>
   </tr>
   <tr>
     <td colspan="2">
-      <img src="documentation/images/sprint-1/allure-suites.png" width="100%">
+      <img src="images/sprint-1-3.3-allure-suites.png" width="100%">
     </td>
   </tr>
 </table>
+
 ## Sprint Retrospective
 
 ### What Went Well
@@ -242,18 +243,16 @@ The report was created, but the issue has not been closed yet.
 
 ## Sprint Review
 ### GitHub Project Board
-![GitHub Project Board](documentation/images/sprint-2/12.png)
+![GitHub Project Board](images/sprint-2-1-planned-tasks.png)
 
 ### Sprint Progress
 31 / 31 Issues сompleted - 100%
 
 [View current progress →](#completed-work)
 
-![GitHub Project - sprint-2 progress](documentation/images/sprint-2/2.2-bar.png)
+![GitHub Project - sprint-2 progress](images/sprint-2-2.1-column.png)
 
-![GitHub Project - sprint-2 progress](documentation/images/sprint-2/2.1-column.png)
-
-![GitHub Project - sprint-2 progress](documentation/images/sprint-2/2.3-staked-area.png)
+![GitHub Project - sprint-2 progress](images/sprint-2-2.3-staked-area.png)
 
 
 
@@ -297,15 +296,15 @@ After verifying the feature the tests were fixed!
 <table>
   <tr>
     <td width="50%">
-      <img src="documentation/images/sprint-2/overview-report-tab.png" width="100%">
+      <img src="images/sprint-2-3.1-overview-report-tab.png" width="100%">
     </td>
     <td width="50%">
-      <img src="documentation/images/sprint-2/graphs-report-tab.png" width="100%">
+      <img src="images/sprint-2-3.2-graphs-report-tab.png" width="100%">
     </td>
   </tr>
   <tr>
     <td colspan="2">
-      <img src="documentation/images/sprint-2/suites-report-tab.png" width="100%">
+      <img src="images/sprint-2-3.3-suites-report-tab.png" width="100%">
     </td>
   </tr>
 </table>
@@ -400,7 +399,7 @@ The goal of Sprint 3 is to verify the new Broken Images feature and scale the fr
 
 ## Sprint Review
 ### GitHub Project Board
-![GitHub Project Board](documentation/images/sprint-3-1-planed-tasks.png)
+![GitHub Project Board](images/sprint-3-1-planed-tasks.png)
 
 ### Sprint Progress
 1 / 20 Issues 
@@ -408,7 +407,7 @@ The goal of Sprint 3 is to verify the new Broken Images feature and scale the fr
 
 [View current progress →](#completed-work)
 
-![GitHub Project - sprint-2 progress](documentation/images/sprint-3-2-progress-chart-column.png)
+![GitHub Project - sprint-2 progress](images/sprint-3-2-progress-chart-column.png)
 
 
 
