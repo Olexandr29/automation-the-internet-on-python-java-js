@@ -12,11 +12,19 @@
 - The third image is displayed correctly.
 - No broken image indicator or missing image placeholder is displayed.
 ### Actual Result:
-- The first image is broken and is not displayed correctly.
-- The second image is broken and is not displayed correctly.
+- The first image is not loaded and a broken image indicator is displayed.
+- The second image is not loaded and a broken image indicator is displayed.
+- The requests for asdf.jpg and hjkl.jpg return HTTP 404 (Not Found).
 - The third image is displayed correctly.
-### Severity: Medium
+### Severity: 
+Medium
+### Priority: 
+Medium
+### Environment: 
+- OS: Windows 11
+- Browser: Chrome Version 152.0.7977.83
+### Test Case: 
+TC37 – Verify image loading
+### Attachment:
+![First and second images are broken](documentation/images/br01.png)
 
-### Priority: Medium
-
-### Environment: Web browser
