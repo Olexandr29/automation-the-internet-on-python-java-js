@@ -349,3 +349,94 @@ This is a problem for issues that cannot be completed with a single PR and requi
 - Continue scaling the framework, including more options for CI/CD and Allure reporting.
 
 </details>
+
+
+
+
+# Sprint 3 Report
+
+<details><summary></summary>
+
+## Sprint Goal
+The goal of Sprint 3 is to verify the new Broken Images feature and scale the framework.
+
+## Planned Work:
+- Issue #9 [Test Design for the Broken Images feature](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/9)
+- Issue #10 [Test Automation for Broken Images feature](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/10):
+	- Issue #15 Java: Test Automation for Broken Images feature
+	- Issue #16 JS: Test Automation for Broken Images feature
+	- Issue #17 Python: Test Automation for Broken Images feature
+- Issue #11 [Add build status badges](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/11):
+	- Issues #18 Java: Add build status badges
+	- Issues #98 Python: Add build status badges
+	- Issues #14 JS: Add build status badges
+- Issue #12 [Configure execution history and execution metadata](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/12):
+	- Issue #19 Java: Configure execution history and execution metadata
+	- Issue #15 JS: Configure execution history and execution metadata
+	- Issue #99 Python: Configure execution history and execution metadata
+- Issue #14 [Architecture](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/14):
+	- Issue #20 Java: Architecture
+	- Issue #16 JS: Architecture
+	- Issue#100 Python: Architecture
+	- Issue #15 General: Architecture
+- Issue #16 [Learn Docker fundamentals](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/16)
+- Issue #13 [Create Report for Sprint 3](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/13)
+	
+
+**Total: 20 Issues**
+
+
+## Completed work
+
+**Completed: 1 / 20 Issues**
+**Completion: 5%**
+
+
+### Completed:
+- Issue #9 [Test Design for the Broken Images feature](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/9)
+
+### Not completed:
+<!-- - None -->
+
+## Sprint Review
+### GitHub Project Board
+![GitHub Project Board](documentation/images/sprint-3-1-planed-tasks.png)
+
+### Sprint Progress
+1 / 20 Issues 
+сompleted - 5%
+
+[View current progress →](#completed-work)
+
+![GitHub Project - sprint-2 progress](documentation/images/sprint-3-2-progress-chart-column.png)
+
+
+
+
+
+
+### Pull Requests
+
+- automation-the-internet-on-python-java-js:
+
+1 created, 1 merged
+
+<!-- - automation-the-internet-on-js:
+
+7 created, 7 merged
+
+- automation-the-internet-python:
+
+6 created, 6 merged
+
+- automation-the-internet-on-java:
+
+6 created, 6 merged -->
+
+
+---
+1 PRs created
+
+1 PRs merged
+
+</details>
