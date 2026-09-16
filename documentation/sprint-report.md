@@ -1,11 +1,20 @@
-# Sprint 1 Report
-<details><summary> <b>
-</b> </summary>
+# Sprint 1 
+<details><summary><b>Report</b> </summary>
 
-## Sprint Goal
+<!-- <details><summary><b>1) Sprint Goal </b></summary> -->
+<details><summary>1) Sprint Goal</summary>
+
+
+<!-- ## Sprint Goal -->
 The goal of Sprint 1 is to verify the new Dropdown feature and scale the framework.
+</details>
 
-## Planned Work:
+
+<!-- ## Planned Work  -->
+<!-- <details><summary><b>2) Planned Work </b></summary> -->
+<details><summary>2) Planned Work</summary>
+
+
 1) Implement technical debt from Sprint 0:
 - Issue #69 [Improve keyboard action logging](https://github.com/Olexandr29/automation-the-internet-python/issues/69)
 - Issue #62 [Repository README](https://github.com/Olexandr29/automation-the-internet-python/issues/62):
@@ -39,9 +48,12 @@ The goal of Sprint 1 is to verify the new Dropdown feature and scale the framewo
 
 
 **Total: 27 Issues**
+</details>
 
 
-## Completed work
+<!-- ## Completed work -->
+<!-- <details><summary><b>3) Completed work</b></summary> -->
+<details><summary>3) Completed work</summary>
 
 **Completed: 22 / 27 Issues**
 
@@ -78,15 +90,23 @@ The goal of Sprint 1 is to verify the new Dropdown feature and scale the framewo
 	- Issue #50 Python: Publish test reports
 - Issue #67 [Run tests on pull requests and on schedule](https://github.com/Olexandr29/automation-the-internet-python/issues/67)
 
-## Sprint Review
+</details>
+
+<!-- ## Sprint Review -->
+<!-- <details><summary><b>4) Sprint Review</b></summary> -->
+<details><summary>4) Sprint Review</summary>
+
+
 ### GitHub Project Board
 ![GitHub Project Board](images/sprint-1-1-github-project-dashboard.png)
+![GitHub Project Board](images/sprint-1-1-github-project-dashboard-Sprint-1-planned-closed-tasks.png)
 
 ### Sprint Progress
-22 / 27 Issues completed – 81,5%
+22 / 27 Issues 
+
+completed – 81,5%
 
 ![GitHub Project - sprint-1 progress](images/sprint-1-2-sprint-progress.png)
-
 ### Pull Requests
 11 PRs created
 
@@ -97,7 +117,9 @@ The goal of Sprint 1 is to verify the new Dropdown feature and scale the framewo
 
 ### Test Execution
 30 x 3 = 90 tests
+
 90 Passed
+
 0 Failed
 
 ### Allure Report
@@ -117,7 +139,10 @@ The goal of Sprint 1 is to verify the new Dropdown feature and scale the framewo
   </tr>
 </table>
 
-## Sprint Retrospective
+</details>
+
+<!-- ## Sprint Retrospective -->
+<details><summary>5) Sprint Retrospective</summary>
 
 ### What Went Well
 - Decided to set Sprint duration to 4 weeks
@@ -140,13 +165,14 @@ The goal of Sprint 1 is to verify the new Dropdown feature and scale the framewo
 
 - Implement a new feature.
 - Continue scaling the framework, including more options for CI/CD and Allure reporting.
+</details>
 
 </details>
 
+---
+# Sprint 2
 
-# Sprint 2 Report
-
-<details><summary></summary>
+<details><summary><b>Report</b> </summary>
 
 ## Sprint Goal
 The goal of Sprint 2 is to verify the new Checkbox feature and scale the framework.
@@ -351,7 +377,7 @@ This is a problem for issues that cannot be completed with a single PR and requi
 
 
 
-
+---
 # Sprint 3 Report
 
 <details><summary></summary>
