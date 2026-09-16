@@ -26,3 +26,5 @@ The main goal is to demonstrate practical automation testing skills, software en
 ### Documentation
 - [Test Cases]( https://github.com/Olexandr29/automation-the-internet-on-python-java-js/blob/main/documentation/test-cases.md)
 - [Sprint Report](documentation/sprints/sprint-01-report.md)
+- [Architecture](documentation/architecture.md)
+
