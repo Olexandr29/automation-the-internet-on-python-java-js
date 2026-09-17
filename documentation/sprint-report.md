@@ -1,19 +1,13 @@
 # Sprint 1 
 <details><summary><b>Report</b> </summary>
 
-<!-- <details><summary><b>1) Sprint Goal </b></summary> -->
 <details><summary>1) Sprint Goal</summary>
 
-
-<!-- ## Sprint Goal -->
-The goal of Sprint 1 is to verify the new Dropdown feature and scale the framework.
+The goal of Sprint 1 is to verify the Dropdown feature and scale the framework.
 </details>
 
 
-<!-- ## Planned Work  -->
-<!-- <details><summary><b>2) Planned Work </b></summary> -->
 <details><summary>2) Planned Work</summary>
-
 
 1) Implement technical debt from Sprint 0:
 - Issue #69 [Improve keyboard action logging](https://github.com/Olexandr29/automation-the-internet-python/issues/69)
@@ -50,14 +44,7 @@ The goal of Sprint 1 is to verify the new Dropdown feature and scale the framewo
 **Total: 27 Issues**
 </details>
 
-
-<!-- ## Completed work -->
-<!-- <details><summary><b>3) Completed work</b></summary> -->
-<details><summary>3) Completed work</summary>
-
-**Completed: 22 / 27 Issues**
-
-**Completion: 81,5%**
+<details><summary>3) Completed and not completed work</summary>
 
 ### Completed:
 - Issue #69 [Improve keyboard action logging](https://github.com/Olexandr29/automation-the-internet-python/issues/69)
@@ -92,19 +79,17 @@ The goal of Sprint 1 is to verify the new Dropdown feature and scale the framewo
 
 </details>
 
-<!-- ## Sprint Review -->
-<!-- <details><summary><b>4) Sprint Review</b></summary> -->
 <details><summary>4) Sprint Review</summary>
-
 
 ### GitHub Project Board
 ![GitHub Project Board](images/sprint-1-1-github-project-dashboard.png)
 ![GitHub Project Board](images/sprint-1-1-github-project-dashboard-Sprint-1-planned-closed-tasks.png)
 
 ### Sprint Progress
-22 / 27 Issues 
 
-completed – 81,5%
+**Completed: 22 / 27 Issues**
+
+**Completion: 81,5%**
 
 ![GitHub Project - sprint-1 progress](images/sprint-1-2-sprint-progress.png)
 ### Pull Requests
@@ -141,7 +126,7 @@ completed – 81,5%
 
 </details>
 
-<!-- ## Sprint Retrospective -->
+
 <details><summary>5) Sprint Retrospective</summary>
 
 ### What Went Well
@@ -174,10 +159,12 @@ completed – 81,5%
 
 <details><summary><b>Report</b> </summary>
 
-## Sprint Goal
+<details><summary>1) Sprint Goal</summary>
 The goal of Sprint 2 is to verify the new Checkbox feature and scale the framework.
+</details>
 
-## Planned Work:
+<details><summary>2) Planned Work</summary>
+
 #### 1) Implement not completed work(technical debt) from Sprint 1:
 - Issue #47 [Publish test reports](https://github.com/Olexandr29/automation-the-internet-python/issues/47):
 	- Issue #48 Java: Publish test reports
@@ -220,13 +207,9 @@ The report was created, but the issue has not been closed yet.
 
 
 **Total: 31 Issues**
+</details>
 
-
-## Completed work
-
-**Completed: 31 / 31 Issues**
-**Completion: 100%**
-
+<details><summary>3) Completed and not completed work</summary>
 
 ### Completed:
 - Issue #47 [Publish test reports](https://github.com/Olexandr29/automation-the-internet-python/issues/47):
@@ -263,25 +246,25 @@ The report was created, but the issue has not been closed yet.
 - Issue #88 [Create Report for Sprint 2](https://github.com/Olexandr29/automation-the-internet-python/issues/88)
 
 
-
 ### Not completed:
 - None
 
-## Sprint Review
+</details>
+
+<details><summary>4) Sprint Review</summary>
+
 ### GitHub Project Board
 ![GitHub Project Board](images/sprint-2-1-planned-tasks.png)
 
 ### Sprint Progress
-31 / 31 Issues сompleted - 100%
 
-[View current progress →](#completed-work)
+**Completed: 31 / 31 Issues**
+
+**Completion: 100%**
 
 ![GitHub Project - sprint-2 progress](images/sprint-2-2.1-column.png)
 
 ![GitHub Project - sprint-2 progress](images/sprint-2-2.3-staked-area.png)
-
-
-
 
 ### Pull Requests
 
@@ -300,7 +283,6 @@ The report was created, but the issue has not been closed yet.
 - automation-the-internet-on-java:
 
 6 created, 6 merged
-
 
 ---
 21 PRs created
@@ -335,7 +317,10 @@ After verifying the feature the tests were fixed!
   </tr>
 </table>
 
-## Sprint Retrospective
+</details>
+
+
+<details><summary>5) Sprint Retrospective</summary>
 
 ### What Went Well
 1) Completed all tasks.
@@ -349,7 +334,6 @@ After verifying the feature the tests were fixed!
 	- Used 'git revert' to roll back to a stable previous commit.
 	- Used 'git --ammend' to rename a commit.
 
-
 ### What Didn't Go Well
 1. The script inside a PR "Related to issue #number" closed the GitHub Project Card instead of mark that the card just related to the specific issue.
 This is a problem for issues that cannot be completed with a single PR and require multiple PRs to finish the work.
@@ -357,35 +341,33 @@ This is a problem for issues that cannot be completed with a single PR and requi
 3. The scheduled workflow started later than the configured time.
 4. Didn't take into account that the Sprint Report task should be completed only after closing the PR and task, because the statistics still show this task as unfinished while the PR is open. After closing the PR, the statistics are updated with the final metrics, so the Sprint Report has to be updated again with the final numbers and screenshots.
 
-
-
 ### Improvement Actions
 - Allocate additional time for "Defect Reporting" during the "Test Design for the {specific} feature" task, if defects are found.
 - Discovered how to select necessary repo for the issue when you work on GitHub Project.
 - Discovered how turn off the automaticaly close an issue when the issue is not done.
 - Took into account that on GitHub free plan a scheduled workflow run started later than the configured time. And discovered the reason, it's because GitHub Actions scheduled workflows are not guaranteed to start exactly at the specified time and may be delayed due to GitHub Actions load or runner availability.
 
-
-
-
 ## Next Sprint
 
 - Implement a new feature.
 - Continue scaling the framework, including more options for CI/CD and Allure reporting.
+</details>
 
 </details>
 
 
-
 ---
-# Sprint 3 Report
+# Sprint 3 
 
-<details><summary></summary>
+<details><summary><b>Report</b></summary>
 
-## Sprint Goal
-The goal of Sprint 3 is to verify the new Broken Images feature and scale the framework.
+<details><summary>1) Sprint Goal</summary>
 
-## Planned Work:
+The goal of Sprint 3 is to verify the Broken Images feature and scale the framework.
+</details>
+
+<details><summary>2) Planned Work</summary>
+
 - Issue #9 [Test Design for the Broken Images feature](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/9)
 - Issue #10 [Test Automation for Broken Images feature](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/10):
 	- Issue #15 Java: Test Automation for Broken Images feature
@@ -409,21 +391,29 @@ The goal of Sprint 3 is to verify the new Broken Images feature and scale the fr
 	
 
 **Total: 20 Issues**
+</details>
 
+<details><summary>3) Completed and not completed work</summary>
 
-## Completed work
-
-**Completed: 1 / 20 Issues**
-**Completion: 5%**
+#### Completed: 3 / 20 Issues
+#### Completion: 15%
 
 
 ### Completed:
 - Issue #9 [Test Design for the Broken Images feature](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/9)
+<!-- - Issue #14 [Architecture](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/14):
+	- Issue #20 Java: Architecture
+	- Issue #16 JS: Architecture
+	- Issue#100 Python: Architecture -->
+	- Issue #15 General: Architecture
+- Issue #16 [Learn Docker fundamentals](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/16)
 
 ### Not completed:
 <!-- - None -->
+</details>
 
-## Sprint Review
+<details><summary>4) Sprint Review</summary>
+
 ### GitHub Project Board
 ![GitHub Project Board](images/sprint-3-1-planed-tasks.png)
 
@@ -431,20 +421,13 @@ The goal of Sprint 3 is to verify the new Broken Images feature and scale the fr
 1 / 20 Issues 
 сompleted - 5%
 
-[View current progress →](#completed-work)
-
-![GitHub Project - sprint-2 progress](images/sprint-3-2-progress-chart-column.png)
-
-
-
-
-
+![GitHub Project - sprint-2 progress](images/sprint-3-2-progress-chart-column-Sept14-17.png)
 
 ### Pull Requests
 
 - automation-the-internet-on-python-java-js:
 
-1 created, 1 merged
+4 created, 3 merged
 
 <!-- - automation-the-internet-on-js:
 
@@ -459,9 +442,9 @@ The goal of Sprint 3 is to verify the new Broken Images feature and scale the fr
 6 created, 6 merged -->
 
 
----
+<!-- ---
 1 PRs created
 
-1 PRs merged
+1 PRs merged -->
 
 </details>
