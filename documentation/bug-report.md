@@ -26,5 +26,5 @@ Medium
 ### Test Case: 
 TC37 – Verify image loading
 ### Attachment:
-![First and second images are broken](documentation/images/br01.png)
+![First and second images are broken](images/br01.png)
 
