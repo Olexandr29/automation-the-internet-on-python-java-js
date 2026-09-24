@@ -2,7 +2,7 @@
 <details><summary><b>Overview</b></summary>
 This project is a multi-language UI test automation ecosystem built around the same application under test(AUT): [The Internet](https://the-internet.herokuapp.com/).
 
-The project consists of a central General repositoryand three independent automation framework repositories:
+The project consists of a central General repository and three independent automation framework repositories:
 - [Python](https://github.com/Olexandr29/automation-the-internet-python)
 - [JavaScript](https://github.com/Olexandr29/automation-the-internet-js)
 - [Java](https://github.com/Olexandr29/automation-the-internet-java)
@@ -48,9 +48,9 @@ Automation Testing Project
     ├── testng/
     └── .github/workflows/
 ```
-The General repository contains project-level documentation and coordination, while automation implementation is maintained in th language-specific  repositories.
+The General repository contains project-level documentation and coordination, while automation implementation is maintained in the language-specific  repositories.
 
-For detailed framewokr structure and implementation, see the corresponding repository documantation.
+For detailed framework structure and implementation, see the corresponding repository documentation.
 
 </details>
 
@@ -132,7 +132,7 @@ Allure Report
 ```
 
 Tests define scenarios and assertions,
-Page Objects encapsulate UI interactions, anduUtilities provide reusable framework functionality.
+Page Objects encapsulate UI interactions, and Utilities provide reusable framework functionality.
 
 The test framework executes the tests and produces results that are used to generate Allure reports.
 </details>
@@ -195,6 +195,6 @@ The overall project architecture can be represented as follows:
                                   │  Allure Report  │
                                   └─────────────────┘
 ```
-The General repository provides the project-level documentation and coordination layer, while the three language-specific repositories independently implement and and execute the automation.
+The General repository provides the project-level documentation and coordination layer, while the three language-specific repositories independently implement and execute the automation.
 
 </details> 
