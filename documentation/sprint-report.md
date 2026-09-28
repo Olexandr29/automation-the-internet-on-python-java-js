@@ -395,18 +395,22 @@ The goal of Sprint 3 is to verify the Broken Images feature and scale the framew
 
 <details><summary>3) Completed and not completed work</summary>
 
-#### Completed: 3 / 20 Issues
-#### Completion: 15%
+#### Completed: 7 / 20 Issues
+#### Completion: 35%
 
 
 ### Completed:
 - Issue #9 [Test Design for the Broken Images feature](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/9)
-<!-- - Issue #14 [Architecture](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/14):
+- Issue #15 Java: Test Automation for Broken Images feature
+<!-- - Issue #14 [Architecture](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/14): -->
 	- Issue #20 Java: Architecture
-	- Issue #16 JS: Architecture
-	- Issue#100 Python: Architecture -->
+<!--  - Issue #16 JS: Architecture -->
+<!-- - Issue#100 Python: Architecture -->
 	- Issue #15 General: Architecture
 - Issue #16 [Learn Docker fundamentals](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/16)
+- Issue #18 Java: Add build status badges
+- Issue #19 Java: Configure execution history and execution metadata
+
 
 ### Not completed:
 <!-- - None -->
@@ -418,16 +422,15 @@ The goal of Sprint 3 is to verify the Broken Images feature and scale the framew
 ![GitHub Project Board](images/sprint-3-1-planed-tasks.png)
 
 ### Sprint Progress
-1 / 20 Issues 
-сompleted - 5%
 
 ![GitHub Project - sprint-2 progress](images/sprint-3-2-progress-chart-column-Sept14-17.png)
+![GitHub Project - sprint-2 progress](images/sprint-3-2-progress-chart-column-Sept14-28.png)
 
 ### Pull Requests
 
 - automation-the-internet-on-python-java-js:
 
-4 created, 3 merged
+4 created, 4 merged
 
 <!-- - automation-the-internet-on-js:
 
@@ -435,16 +438,70 @@ The goal of Sprint 3 is to verify the Broken Images feature and scale the framew
 
 - automation-the-internet-python:
 
-6 created, 6 merged
+6 created, 6 merged -->
 
 - automation-the-internet-on-java:
 
-6 created, 6 merged -->
+4 created, 4 merged 
 
 
 <!-- ---
 1 PRs created
 
 1 PRs merged -->
+
+### Test Automation
+2 automated tests implemented
+
+### Test Execution
+37 tests:
+
+35 Passed, 2 Failed
+
+1 Test intentionally Failed, to verify the screenshot attachment functionality
+
+and 
+
+1 Test Failed, a bug found. 
+
+The bug report [BRO1 – Two images are broken on the Broken Images page](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/blob/main/documentation/bug-report.md) is created.
+
+
+
+
+### [Allure Report](https://olexandr29.github.io/automation-the-internet-java/)
+
+
+</details>
+
+
+<details><summary>5) Sprint Retrospective</summary>
+
+### What Went Well
+1) Started working with Docker.
+2) Gained practical experience with:
+- Soft assert.
+- Closing issue by 2 PR.
+- Solving conflicts inside PR.
+- Used 'git clean -fd src/main/java/utils/' for forced delete added but not needed files.
+- Used 'git stash' to temprorary hide the changes and have possibility to switch on other branch.
+
+
+
+### What Didn't Go Well
+1. The task Architecture was more complicated than expected.
+2. The workflow has been run even during commit the md files.
+rint Report has to be updated again with the final numbers and screenshots.
+
+### Improvement Actions
+- Create task for the next Sprint to solve the issue ----  The workflow has been run even during commit the md files.
+
+
+## Next Sprint
+
+- Implement a new feature.
+- Implement the specified issue from Improvement action.
+- Continue scaling the framework, including more options for CI/CD and Allure reporting.
+</details>
 
 </details>
