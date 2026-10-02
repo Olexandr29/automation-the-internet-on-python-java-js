@@ -395,21 +395,29 @@ The goal of Sprint 3 is to verify the Broken Images feature and scale the framew
 
 <details><summary>3) Completed and not completed work</summary>
 
-#### Completed: 7 / 20 Issues
-#### Completion: 35%
+#### Completed: 11 / 20 Issues
+#### Completion: 55%
 
 
 ### Completed:
-- Issue #9 [Test Design for the Broken Images feature](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/9)
+- Issue #9 [Test Design for the Broken Images feature]
+(https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/9)
+- Issue #16 [Learn Docker fundamentals](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/16)
+
 - Issue #15 Java: Test Automation for Broken Images feature
+- Issue #16 JS: Test Automation for Broken Images feature
+
 <!-- - Issue #14 [Architecture](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/14): -->
 	- Issue #20 Java: Architecture
-<!--  - Issue #16 JS: Architecture -->
+ 	- Issue #16 JS: Architecture
 <!-- - Issue#100 Python: Architecture -->
 	- Issue #15 General: Architecture
-- Issue #16 [Learn Docker fundamentals](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/16)
+
 - Issue #18 Java: Add build status badges
+- Issue #14 JS: Add build status badges
+
 - Issue #19 Java: Configure execution history and execution metadata
+- Issue #15 JS: Configure execution history and execution metadata
 
 
 ### Not completed:
@@ -425,6 +433,7 @@ The goal of Sprint 3 is to verify the Broken Images feature and scale the framew
 
 ![GitHub Project - sprint-2 progress](images/sprint-3-2-progress-chart-column-Sept14-17.png)
 ![GitHub Project - sprint-2 progress](images/sprint-3-2-progress-chart-column-Sept14-28.png)
+![GitHub Project - sprint-2 progress](images/sprint-3-2-progress-chart-column-Sept14-Oct2.png)
 
 ### Pull Requests
 
@@ -432,17 +441,18 @@ The goal of Sprint 3 is to verify the Broken Images feature and scale the framew
 
 4 created, 4 merged
 
-<!-- - automation-the-internet-on-js:
-
-7 created, 7 merged
-
-- automation-the-internet-python:
-
-6 created, 6 merged -->
-
 - automation-the-internet-on-java:
 
 4 created, 4 merged 
+
+automation-the-internet-on-js:
+
+3 created, 3 merged
+
+
+<!-- - automation-the-internet-python:
+
+6 created, 6 merged -->
 
 
 <!-- ---
@@ -494,8 +504,15 @@ The bug report [BRO1 – Two images are broken on the Broken Images page](https:
 rint Report has to be updated again with the final numbers and screenshots.
 
 ### Improvement Actions
-- Create task for the next Sprint to solve the issue ----  The workflow has been run even during commit the md files.
+- Create tasks for the next Sprint to solve the issues:
+a) Add to the workflow the ignore parts for run when commited/pushed readme files and other files not related to code
+or 
+this ----  The workflow has been run even during commit the md files.
+b) Fix intentionally broken test from Checkbox feature
+c) Change workflow schedule run description - to run on the 1 day of each month
+andRemove comments from workflow
 
+ 
 
 ## Next Sprint
 
