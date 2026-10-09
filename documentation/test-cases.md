@@ -426,13 +426,15 @@
 ### Steps to reproduce:
 1. Open the Broken Images page https://the-internet.herokuapp.com/broken_images
 2. Verify that the page header "Broken Images" is displayed
-3. Verify that 3 <img> elements are displayed on the page
+3. Verify that 3 `<img>` elements are displayed on the page
 4. Verify that the text "Powered by Elemental Selenium" is displayed
 5. Verify that the "Elemental Selenium" link is displayed
 ### Expected result:
-- The Broken Images page loaded successfully: URL is https://the-internet.herokuapp.com/broken_images and document.readyState is complete
+- The Broken Images page loaded successfully: 
+    - URL is https://the-internet.herokuapp.com/broken_images
+    - The document `readyState` is `complete`
 - The "Broken Images" header is displayed
-- Three <img> elements are displayed
+- Three `<img>` elements are displayed
 - The text "Powered by Elemental Selenium" is displayed
 - The "Elemental Selenium" link is displayed
 
@@ -445,10 +447,10 @@
 3. Repeat Steps 1-2 for the second image.
 4. Repeat Steps 1-2 for the third image.
 ### Expected result:
-- The first image is displayed correctly.
-- The second image is displayed correctly.
-- The third image is displayed correctly.
-- No broken image indicator or missing image placeholder is displayed.
+- No broken image indicator or missing image placeholder is displayed:
+    - The first image is displayed correctly.
+    - The second image is displayed correctly.
+    - The third image is displayed correctly.
 
 
 

@@ -395,33 +395,36 @@ The goal of Sprint 3 is to verify the Broken Images feature and scale the framew
 
 <details><summary>3) Completed and not completed work</summary>
 
-#### Completed: 11 / 20 Issues
-#### Completion: 55%
+#### Completed: 20 / 20 Issues
+#### Completion: 100%
 
 
 ### Completed:
-- Issue #9 [Test Design for the Broken Images feature]
-(https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/9)
+- Issue #9 [Test Design for the Broken Images feature](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/9)
 - Issue #16 [Learn Docker fundamentals](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/16)
-
-- Issue #15 Java: Test Automation for Broken Images feature
-- Issue #16 JS: Test Automation for Broken Images feature
-
-<!-- - Issue #14 [Architecture](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/14): -->
-	- Issue #20 Java: Architecture
- 	- Issue #16 JS: Architecture
-<!-- - Issue#100 Python: Architecture -->
+- Issue #10 [Test Automation for Broken Images feature](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/10):
+	- Issue #15 Java: Test Automation for Broken Images feature
+	- Issue #16 JS: Test Automation for Broken Images feature
+	- Issue #17 Python: Test Automation for Broken Images feature
+- Issue #11 [Add build status badges](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/11):
+	- Issues #18 Java: Add build status badges
+	- Issues #98 Python: Add build status badges
+	- Issues #14 JS: Add build status badges
+- Issue #12 [Configure execution history and execution metadata](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/12):
+	- Issue #19 Java: Configure execution history and execution metadata
+	- Issue #15 JS: Configure execution history and execution metadata
+	- Issue #99 Python: Configure execution history and execution metadata
+- Issue #14 [Architecture](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/14):
 	- Issue #15 General: Architecture
-
-- Issue #18 Java: Add build status badges
-- Issue #14 JS: Add build status badges
-
-- Issue #19 Java: Configure execution history and execution metadata
-- Issue #15 JS: Configure execution history and execution metadata
+	- Issue #20 Java: Architecture
+	- Issue #16 JS: Architecture
+	- Issue#100 Python: Architecture
+- Issue #13 [Create Report for Sprint 3](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/13)
 
 
 ### Not completed:
-<!-- - None -->
+- None
+
 </details>
 
 <details><summary>4) Sprint Review</summary>
@@ -434,6 +437,8 @@ The goal of Sprint 3 is to verify the Broken Images feature and scale the framew
 ![GitHub Project - sprint-2 progress](images/sprint-3-2-progress-chart-column-Sept14-17.png)
 ![GitHub Project - sprint-2 progress](images/sprint-3-2-progress-chart-column-Sept14-28.png)
 ![GitHub Project - sprint-2 progress](images/sprint-3-2-progress-chart-column-Sept14-Oct2.png)
+
+![GitHub Project - sprint-2 progress](images/sprint-3-2-progress-chart-column-Oct9.png)
 
 ### Pull Requests
 
@@ -449,16 +454,15 @@ automation-the-internet-on-js:
 
 3 created, 3 merged
 
+- automation-the-internet-python:
 
-<!-- - automation-the-internet-python:
-
-6 created, 6 merged -->
+3 created, 3 merged
 
 
-<!-- ---
-1 PRs created
+---
+12 PRs created
 
-1 PRs merged -->
+12 PRs merged
 
 ### Test Automation
 2 automated tests implemented
@@ -477,10 +481,7 @@ and
 The bug report [BRO1 – Two images are broken on the Broken Images page](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/blob/main/documentation/bug-report.md) is created.
 
 
-
-
 ### [Allure Report](https://olexandr29.github.io/automation-the-internet-java/)
-
 
 </details>
 
@@ -490,34 +491,30 @@ The bug report [BRO1 – Two images are broken on the Broken Images page](https:
 ### What Went Well
 1) Started working with Docker.
 2) Gained practical experience with:
-- Soft assert.
-- Closing issue by 2 PR.
-- Solving conflicts inside PR.
-- Used 'git clean -fd src/main/java/utils/' for forced delete added but not needed files.
-- Used 'git stash' to temprorary hide the changes and have possibility to switch on other branch.
-
+- `Soft assertion` in Java and JavaScript, and `pytest-check` in Python.
+- Closing GitHub Issue through two PRs.
+- Resolving merge conflicts in PRs.
+- 'git clean -fd src/main/java/utils/' to remove untracked files and directories.
+- 'git stash' to temprorarily save changes when switching branches.
 
 
 ### What Didn't Go Well
-1. The task Architecture was more complicated than expected.
-2. The workflow has been run even during commit the md files.
-rint Report has to be updated again with the final numbers and screenshots.
+1. The Architecture task was more complex than expected.
+2. CI workflows ran even when commits contained only Markdown files.
 
 ### Improvement Actions
-- Create tasks for the next Sprint to solve the issues:
-a) Add to the workflow the ignore parts for run when commited/pushed readme files and other files not related to code
-or 
-this ----  The workflow has been run even during commit the md files.
-b) Fix intentionally broken test from Checkbox feature
-c) Change workflow schedule run description - to run on the 1 day of each month
-andRemove comments from workflow
-
- 
+Created draft tasks to address the issues idenfified during Sprint 3:
+1) Optimize CI workflow triggers — skip workflow runs when changes affect only documentation or other files unrelated to code.
+2) Fix the intentionally broken Checkbox test to restore the expected test behavior.
+3) Update workflow scheduling and cleanup:
+- Change schedule to monthly runs for the first day of each month.
+- Remove unnecessary comments from workflow files.
+4) Centralize dependency management — replace manually defined dependency installation commands in CI workflows with project dependency files across Python, Java, and JavaScript projects.
 
 ## Next Sprint
 
 - Implement a new feature.
-- Implement the specified issue from Improvement action.
+- Implement the specified issues from `Improvement action` of Sprint 3 report.
 - Continue scaling the framework, including more options for CI/CD and Allure reporting.
 </details>
 
