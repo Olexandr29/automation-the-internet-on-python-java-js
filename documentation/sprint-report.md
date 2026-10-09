@@ -434,11 +434,7 @@ The goal of Sprint 3 is to verify the Broken Images feature and scale the framew
 
 ### Sprint Progress
 
-![GitHub Project - sprint-2 progress](images/sprint-3-2-progress-chart-column-Sept14-17.png)
-![GitHub Project - sprint-2 progress](images/sprint-3-2-progress-chart-column-Sept14-28.png)
-![GitHub Project - sprint-2 progress](images/sprint-3-2-progress-chart-column-Sept14-Oct2.png)
-
-![GitHub Project - sprint-2 progress](images/sprint-3-2-progress-chart-column-Oct9.png)
+![GitHub Project - sprint-2 progress](images/sprint-3-2-progress-chart-column-Oct9-F.png)
 
 ### Pull Requests
 
