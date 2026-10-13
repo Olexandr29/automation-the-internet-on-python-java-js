@@ -455,3 +455,42 @@
 
 
 </details>
+
+
+# Test Suite - Dynamic Controls
+<details><summary> <b>TC38-
+</b> </summary>
+
+
+## TC38 – Verify page content
+### Precondition:
+- The Dynamic Controls feature is available.
+### Steps to reproduce:
+1. Open the Dynamic Controls page https://the-internet.herokuapp.com/dynamic_controls
+2. Verify that the page header "Dynamic Controls" is displayed
+3. Verify that the text description "This example demonstrates when elements (e.g., checkbox, input field, etc.) are changed asynchronously."is displayed on the page
+4. Verify that the first subheader "Remove/add" is displayed
+5. Verify that one checkbox with the text " A checkbox" is displayed
+6. Verify that button "Remove" is displayed
+7. Verify that the second subheader "Enable/disable" is displayed
+8. Verify that the input field is displayed
+9. Verify that button "Enable" is displayed
+10. Verify that the text "Powered by Elemental Selenium" is displayed
+11. Verify that the "Elemental Selenium" link is displayed
+### Expected result:
+1. The Broken Images page loaded successfully: 
+    - URL is https://the-internet.herokuapp.com/dynamic_controls
+    - The document `readyState` is `complete`
+2. The "Dynamic Controls" header is displayed
+3. The text description "This example demonstrates when elements (e.g., checkbox, input field, etc.) are changed asynchronously."is displayed
+4. The subheader "Remove/add" is displayed
+5. The checkbox with the text " A checkbox" is displayed
+6. The button "Remove" is displayed
+7. The subheader "Enable/disable" is displayed
+8. The input field is displayed
+9. The button "Enable" is displayed
+10. The text "Powered by Elemental Selenium" is displayed
+11. The "Elemental Selenium" link is displayed- The text "Powered by Elemental 
+
+
+</details>
