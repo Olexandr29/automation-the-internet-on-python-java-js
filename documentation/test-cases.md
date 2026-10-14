@@ -492,5 +492,97 @@
 10. The text "Powered by Elemental Selenium" is displayed
 11. The "Elemental Selenium" link is displayed- The text "Powered by Elemental 
 
+## TC39 – Verify checkbox initial state and changes
+### Precondition:
+- The Dynamic Controls page https://the-internet.herokuapp.com/dynamic_controls is opened.
+### Steps to reproduce:
+1. Observe checkbox initial state
+2. Click the checkbox "A checkbox"
+3. Click the "A checkbox" again
+### Expected result:
+1. The initial state of the checkbox "A checkbox" is unchecked.
+2. The "A checkbox" is checked afer first click.
+3. The "A checkbox" is unchecked after second click.
+
+## TC40 – Remove and add checkbox
+### Precondition:
+- The Dynamic Controls page https://the-internet.herokuapp.com/dynamic_controls is opened.
+### Steps to reproduce:
+1. Observe checkbox initial state
+2. Click the "Remove" button
+3. Click the "Add" button
+### Expected result:
+1. The initial state of the checkbox "A checkbox" is unchecked.
+2. The text "Wait for it" and indeterminate progress bar are appeared.
+The "A checkbox" is removed and not displayed at the page.
+The button title "Remove" changed to "Add".
+The text "It's gone!" is appeared.
+3. The text "Wait for it" and indeterminate progress bar are appeared.
+The "A checkbox" is appeared and has unchecked state.
+The button title "Add" changed to "Remove".
+The text "It's gone!" changed to "It's back!".
+
+## TC41 – Remove and add checked checkbox
+### Precondition:
+- The Dynamic Controls page https://the-internet.herokuapp.com/dynamic_controls is opened.
+### Steps to reproduce:
+1. Observe checkbox initial state
+2. Click the checkbox "A checkbox"
+3. Click the "Remove" button
+4. Click the "Add" button
+5. Repeat Steps 2 and 3
+6. Repeat Step 4
+7. Repeat Steps 2 and 3 again
+8. Repeat Step 4 again
+### Expected result:
+1. The initial state of the checkbox "A checkbox" is unchecked.
+2. The "A checkbox" is became checked.
+3. The text "Wait for it" and indeterminate progress bar are appeared.
+The "A checkbox" is removed and not displayed at the page.
+The button title "Remove" changed to "Add".
+The text "It's gone!" is appeared.
+4. The text "Wait for it" and indeterminate progress bar are appeared.
+The "A checkbox" is appeared and has unchecked state.
+The button title "Add" changed to "Remove".
+The text "It's gone!" changed to "It's back!".
+5. The "A checkbox" is became checked.
+The text "Wait for it" and indeterminate progress bar are appeared.
+The checkbox "A checkbox" is removed and just text "A checkbox" is displayed at the page.
+The button title "Remove" changed to "Add".
+The text "It's gone!" is displayed.
+6. The text "Wait for it" and indeterminate progress bar are appeared.
+The "A checkbox" is appeared with unchecked state and the text "A checkbox" is displayed under the checkbox.
+The button title "Add" changed to "Remove".
+The text "It's gone!" changed to "It's back!".
+7. The "A checkbox" is became checked.
+The text "Wait for it" and indeterminate progress bar are appeared.
+The checkbox "A checkbox" is removed and the text "A checkbox" is displayed 2 times at the page.
+The button title "Remove" changed to "Add".
+The text "It's gone!" is displayed.
+8. The text "Wait for it" and indeterminate progress bar are appeared.
+The "A checkbox" is appeared with unchecked state and the text "A checkbox" is displayed 2 times under the checkbox.
+The button title "Add" changed to "Remove".
+The text "It's gone!" changed to "It's back!".
+
+## TC42 – Enable and disable the Input field
+### Precondition:
+- The Dynamic Controls page https://the-internet.herokuapp.com/dynamic_controls is opened.
+### Steps to reproduce:
+1. Verify the initial state of the input field
+2. Click the "Enable" button
+3. Enter a text into the input field (e.g. "Hello")
+4. Click the "Disable" button
+### Expected result:
+1. The initial state of the input field is disabled.
+2. The text "Wait for it" and indeterminate progress bar are appeared.
+The state of the input field became enabled.
+The button title "Enable" changed to "Disable".
+The text "It's enabled!" is appeared.
+3. The inputed text displayed into the input field
+4. The text "Wait for it" and indeterminate progress bar are appeared.
+The state of the input field became disabled and the text entered by Step 3 is displayed.
+The button title "Disable" changed to "Enable".
+The text "It's enabled!" changed to "It's disabled!".
+
 
 </details>
