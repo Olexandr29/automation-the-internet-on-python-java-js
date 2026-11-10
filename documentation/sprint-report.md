@@ -512,6 +512,186 @@ Created draft tasks to address the issues idenfified during Sprint 3:
 - Implement a new feature.
 - Implement the specified issues from `Improvement action` of Sprint 3 report.
 - Continue scaling the framework, including more options for CI/CD and Allure reporting.
+
+</details>
+
+</details>
+
+
+
+---
+# Sprint 4 
+
+<details><summary><b>Report</b></summary>
+
+<details><summary>1) Sprint Goal</summary>
+
+The goal of Sprint 4 is to verify the Dynamic Controls feature and scale the framework.
+</details>
+
+<details><summary>2) Planned Work</summary>
+
+- Issue #21 [Test Design for the Dynamic Controls feature](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/21)
+
+- Issue #22 [Test Automation for Dynamic Controls feature ](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/22):
+	- Issue #104 Python: Test Automation for Dynamic Controls feature
+	- Issue #20 JS: Test Automation for Dynamic Controls feature
+	- Issue #25 Java: Test Automation for Dynamic Controls feature
+
+- Issue #23 [Create Report for Sprint 4](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/23)
+
+- Issue #24 [Create first Dockerfile](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/24):
+	- Issue #105 Create first Dockerfile for Python
+	- Issue #21 Create first Dockerfile for JavaScript
+	- Issue #26 Create first Dockerfile for Java
+
+- Issue #25 [Optimize CI Workflow Triggers](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/25):
+	- Issue #106 Python: Optimize CI Workflow Triggers
+	- Issue #22 JS: Optimize CI Workflow Triggers
+	- Issue #27 Java: Optimize CI Workflow Triggers
+
+- Issue #26 [Update CI Workflow Schedule](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/26):
+	- Issue #107 Python: Update CI Workflow Schedule
+	- Issue #23 JS: Update CI Workflow Schedule
+	- Issue #28 Java: Update CI Workflow Schedule
+	
+- Issue #27 [Fix Failing Automated Tests](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/27):
+	- Issue #109 Python: Fix Failing Automated Tests
+	- Issue #24 JS: Fix Failing Automated Tests
+	- Issue #29 Java: Fix Failing Automated Tests
+	- Issue #31 [Update test cases to reflect application changes](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/31)
+
+- Issue #28 [Configure and Use a Centralized Base URL](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/28):
+	- Issue #110 Python: Configure and Use a Centralized Base URL	
+	- Issue #25 JS: Configure and Use a Centralized Base URL	
+	- Issue #30 Java: Configure and Use a Centralized Base URL	
+
+- Issue #108 [Centralize CI Dependency Management for Python project](https://github.com/Olexandr29/automation-the-internet-python/issues/108)
+
+- Issue #26 [Remove the Duplicate JavaScript Workflow Badge from README](https://github.com/Olexandr29/automation-the-internet-js/issues/26)
+	
+**Total: 29 Issues**
+</details>
+
+<details><summary>3) Completed and not completed work</summary>
+
+#### Completed: 13 / 29 Issues
+#### Completion: 44,8%
+
+
+### Completed:
+
+- Issue #21 [Test Design for the Dynamic Controls feature](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/21)
+
+	- Issue #104 [Python: Test Automation for Dynamic Controls feature](https://github.com/Olexandr29/automation-the-internet-python/issues/104)
+	
+- Issue #108 [Centralize CI Dependency Management for Python project](https://github.com/Olexandr29/automation-the-internet-python/issues/108)
+
+	- Issue #109 [Python: Fix Failing Automated Tests](https://github.com/Olexandr29/automation-the-internet-python/issues/109)
+
+- Issue #26 [Update CI Workflow Schedule](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/26):
+	- Issue #107 Python: Update CI Workflow Schedule
+	- Issue #23 JS: Update CI Workflow Schedule
+	- Issue #28 Java: Update CI Workflow Schedule
+	
+	- Issue #110 [Python: Configure and Use a Centralized Base URL](https://github.com/Olexandr29/automation-the-internet-python/issues/110)
+
+	- Issue #105 [Create first Dockerfile for Python](https://github.com/Olexandr29/automation-the-internet-python/issues/105)
+
+	- Issue #106 [Python: Optimize CI Workflow Triggers](https://github.com/Olexandr29/automation-the-internet-python/issues/106)
+	- Issue #22 [JS: Optimize CI Workflow Triggers](https://github.com/Olexandr29/automation-the-internet-js/issues/22)
+
+- Issue #26 [Remove the Duplicate JavaScript Workflow Badge from README](https://github.com/Olexandr29/automation-the-internet-js/issues/26)
+
+	
+### Not completed:
+
+- Issue #22 [Test Automation for Dynamic Controls feature](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/22):
+	- Issue #20 JS: Test Automation for Dynamic Controls feature
+	- Issue #25 Java: Test Automation for Dynamic Controls feature
+
+- Issue #27 [Fix Failing Automated Tests](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/27):
+	- Issue #24 JS: Fix Failing Automated Tests
+	- Issue #29 Java: Fix Failing Automated Tests
+	- Issue #31 [Update test cases to reflect application changes](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/31)
+
+- Issue #28 [Configure and Use a Centralized Base URL](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/28):
+	- Issue #25 JS: Configure and Use a Centralized Base URL	
+	- Issue #30 Java: Configure and Use a Centralized Base URL	
+
+- Issue #24 [Create first Dockerfile](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/24):
+	- Issue #21 Create first Dockerfile for JavaScript
+	- Issue #26 Create first Dockerfile for Java
+
+- Issue #23 [Create Report for Sprint 4](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/23)
+
+- Issue #25 [Optimize CI Workflow Triggers](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/25):
+		- Issue #27 Java: Optimize CI Workflow Triggers
+
+</details>
+
+<details><summary>4) Sprint Review</summary>
+
+### GitHub Project Board
+![GitHub Project Board](images/sprint-4-1-planed-tasks(29).png)
+
+### Sprint Progress
+
+![GitHub Project - sprint-2 progress](images/sprint-4-2-progress(29-13).png)
+
+### Pull Requests
+
+- automation-the-internet-on-python-java-js:
+
+2 created, 1 merged
+
+- automation-the-internet-on-java:
+
+2 created, 2 merged 
+
+automation-the-internet-on-js:
+
+4 created, 3 merged
+
+- automation-the-internet-python:
+
+7 created, 7 merged
+
+
+---
+15 PRs created
+
+13 PRs merged
+
+### Test Automation
+9 automated tests implemented
+
+### Test Execution
+46 tests:
+
+46 Passed, 0 Failed
+
+### [Allure Report](https://olexandr29.github.io/automation-the-internet-java/)
+
+</details>
+
+
+<details><summary>5) Sprint Retrospective</summary>
+
+### What Went Well
+- Added JSDoc type annotations to test suites, improving InteliSense autocomplete and enabling access to page-specific methods when working with Page Objects.
+
+### What Didn't Go Well
+- The task "Test Automation for Dynamic Controls feature" turned out to be more complex than initially estimated, requiring more time than expected.
+
+### Improvement Actions
+- Set a limit of 22 tasks for the Sprint backlog to more realistic workload.
+- Prepare a reserve task list in case of all planned tasks are completed before the end of the Sprint.
+
+## Next Sprint
+
+- Complete tasks that left from previous Sprint.
+- Refactor the automation framework to improve code quality фтв maintainability.
 </details>
 
 </details>
