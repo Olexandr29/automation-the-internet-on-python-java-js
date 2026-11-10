@@ -455,3 +455,256 @@
 
 
 </details>
+
+
+# Test Suite - Dynamic Controls
+<details><summary> <b>TC38-46
+</b> </summary>
+
+
+## TC38 – Verify page content
+### Precondition:
+- The Dynamic Controls feature is available.
+### Steps to reproduce:
+1. Open the Dynamic Controls page https://the-internet.herokuapp.com/dynamic_controls
+2. Verify that the page header "Dynamic Controls" is displayed
+3. Verify that the text description "This example demonstrates when elements (e.g., checkbox, input field, etc.) are changed asynchronously."is displayed on the page
+4. Verify that the first subheader "Remove/add" is displayed
+5. Verify that one checkbox with the text " A checkbox" is displayed
+6. Verify that button "Remove" is displayed
+7. Verify that the second subheader "Enable/disable" is displayed
+8. Verify that the input field is displayed
+9. Verify that button "Enable" is displayed
+10. Verify that the text "Powered by Elemental Selenium" is displayed
+11. Verify that the "Elemental Selenium" link is displayed
+### Expected result:
+1. The Dynamic Controls page loaded successfully: 
+    - URL is https://the-internet.herokuapp.com/dynamic_controls
+    - The document `readyState` is `complete`
+2. The "Dynamic Controls" header is displayed
+3. The text description "This example demonstrates when elements (e.g., checkbox, input field, etc.) are changed asynchronously."is displayed
+4. The subheader "Remove/add" is displayed
+5. The checkbox with the text " A checkbox" is displayed
+6. The button "Remove" is displayed
+7. The subheader "Enable/disable" is displayed
+8. The input field is displayed
+9. The button "Enable" is displayed
+10. The text "Powered by Elemental Selenium" is displayed
+11. The "Elemental Selenium" link is displayed- The text "Powered by Elemental 
+
+## TC39 – Verify checkbox initial state and changes
+### Precondition:
+- The Dynamic Controls page https://the-internet.herokuapp.com/dynamic_controls is opened.
+### Steps to reproduce:
+1. Observe checkbox initial state
+2. Click the checkbox "A checkbox"
+3. Click the "A checkbox" again
+### Expected result:
+1. The initial state of the checkbox "A checkbox" is unchecked.
+2. The "A checkbox" is checked afer first click.
+3. The "A checkbox" is unchecked after second click.
+
+## TC40 – Remove and add checkbox
+### Precondition:
+- The Dynamic Controls page https://the-internet.herokuapp.com/dynamic_controls is opened.
+### Steps to reproduce:
+1. Observe checkbox initial state
+2. Click the "Remove" button
+3. Click the "Add" button
+### Expected result:
+1. The initial state of the checkbox "A checkbox" is unchecked.
+2. The text "Wait for it" and indeterminate progress bar are appeared.
+The "A checkbox" is removed and not displayed at the page.
+The button title "Remove" changed to "Add".
+The text "It's gone!" is appeared.
+3. The text "Wait for it" and indeterminate progress bar are appeared.
+The "A checkbox" is appeared and has unchecked state.
+The button title "Add" changed to "Remove".
+The text "It's gone!" changed to "It's back!".
+
+## TC41 – Remove and add checked checkbox
+### Precondition:
+- The Dynamic Controls page https://the-internet.herokuapp.com/dynamic_controls is opened.
+### Steps to reproduce:
+1. Observe checkbox initial state
+2. Click the checkbox "A checkbox"
+3. Click the "Remove" button
+4. Click the "Add" button
+5. Repeat Steps 2 and 3
+6. Repeat Step 4
+7. Repeat Steps 2 and 3 again
+8. Repeat Step 4 again
+### Expected result:
+1. The initial state of the checkbox "A checkbox" is unchecked.
+2. The "A checkbox" is became checked.
+3. The text "Wait for it" and indeterminate progress bar are appeared.
+The "A checkbox" is removed and not displayed at the page.
+The button title "Remove" changed to "Add".
+The text "It's gone!" is appeared.
+4. The text "Wait for it" and indeterminate progress bar are appeared.
+The "A checkbox" is appeared and has unchecked state.
+The button title "Add" changed to "Remove".
+The text "It's gone!" changed to "It's back!".
+5. The "A checkbox" is became checked.
+The text "Wait for it" and indeterminate progress bar are appeared.
+The checkbox "A checkbox" is removed and just text "A checkbox" is displayed at the page.
+The button title "Remove" changed to "Add".
+The text "It's gone!" is displayed.
+6. The text "Wait for it" and indeterminate progress bar are appeared.
+The "A checkbox" is appeared with unchecked state and the text "A checkbox" is displayed under the checkbox.
+The button title "Add" changed to "Remove".
+The text "It's gone!" changed to "It's back!".
+7. The "A checkbox" is became checked.
+The text "Wait for it" and indeterminate progress bar are appeared.
+The checkbox "A checkbox" is removed and the text "A checkbox" is displayed 2 times at the page.
+The button title "Remove" changed to "Add".
+The text "It's gone!" is displayed.
+8. The text "Wait for it" and indeterminate progress bar are appeared.
+The "A checkbox" is appeared with unchecked state and the text "A checkbox" is displayed 2 times under the checkbox.
+The button title "Add" changed to "Remove".
+The text "It's gone!" changed to "It's back!".
+
+## TC42 – Enable and disable the Input field
+### Precondition:
+- The Dynamic Controls page https://the-internet.herokuapp.com/dynamic_controls is opened.
+### Steps to reproduce:
+1. Verify the initial state of the input field
+2. Click the "Enable" button
+3. Enter a text into the input field (e.g. "Hello")
+4. Click the "Disable" button
+### Expected result:
+1. The initial state of the input field is disabled.
+2. The text "Wait for it" and indeterminate progress bar are appeared.
+The state of the input field became enabled.
+The button title "Enable" changed to "Disable".
+The text "It's enabled!" is appeared.
+3. The entered text displayed into the input field
+4. The text "Wait for it" and indeterminate progress bar are appeared.
+The state of the input field became disabled and the text entered by Step 3 is displayed.
+The button title "Disable" changed to "Enable".
+The text "It's enabled!" changed to "It's disabled!".
+
+## TC43 – Verify checkbox section state after refresh
+### Precondition:
+- The Dynamic Controls page https://the-internet.herokuapp.com/dynamic_controls is opened.
+### Steps to reproduce:
+1. Click the "Remove" button
+2. Click the browser Refresh button
+3. Click the "A checkbox"
+4. Click "Remove" button
+5. Click the "Add" button
+6. Click the browser Refresh button
+### Expected result:
+1. The text "Wait for it" and indeterminate progress bar are appeared.
+The "A checkbox" is removed and not displayed at the page.
+The button title "Remove" changed to "Add".
+The text "It's gone!" is appeared.
+2.The Checkbox section got initial state after refresh:
+The initial state of the checkbox "A checkbox" is unchecked.
+The button title "Remove" is displayed.
+3. The "A checkbox" state is became cheked.
+4. The text "Wait for it" and indeterminate progress bar are appeared.
+The "A checkbox" is removed and not displayed at the page.
+The button title "Remove" changed to "Add".
+The text "It's gone!" is appeared.
+5. The text "Wait for it" and indeterminate progress bar are appeared.
+The "A checkbox" is appeared and has unchecked state.
+The button title "Add" changed to "Remove".
+The text "It's gone!" changed to "It's back!".
+6.The Checkbox and Input Field sections got initial state after refresh:
+The initial state of the checkbox "A checkbox" is unchecked.
+The button title "Remove" is displayed.
+The initial state of the input field is disabled.
+The button title "Enable" is displayed.
+
+## TC44 – Verify Iput field section state after refresh
+### Precondition:
+- The Dynamic Controls page https://the-internet.herokuapp.com/dynamic_controls is opened.
+### Steps to reproduce:
+1. Click the "Enable" button
+2. Click the browser Refresh button
+3. Navigate to the Input field and enter an input value (e.g. "Input123$")
+4. Click "Disable" button
+5. Click the browser Refresh button
+### Expected result:
+1. The text "Wait for it" and indeterminate progress bar are appeared.
+The state of the input field became enabled.
+The button title "Enable" changed to "Disable".
+The text "It's enabled!" is appeared.
+2.The Input Field section got initial state after refresh:
+The initial state of the input field is disabled.
+The button title "Enable" is displayed.
+3. The entered text displayed into the input field
+4. The text "Wait for it" and indeterminate progress bar are appeared.
+The state of the input field became disabled and the text entered by Step 3 is displayed.
+The button title "Disable" changed to "Enable".
+The text "It's enabled!" changed to "It's disabled!".
+5.The Input Field section got initial state after refresh:
+The initial state of the input field is disabled.
+The button title "Enable" is displayed.
+
+## TC45 – Navigate, select and change checkbox section state using keyboard
+### Precondition:
+- The Dynamic Controls page https://the-internet.herokuapp.com/dynamic_controls is opened.
+### Steps to reproduce:
+1. Press Tab key until the checkbox " A checkbox" receives focus.
+2. Press Space key to check the checkbox.
+3. Press Tab key until the button "Remove" receives focus.
+4. Press Enter key to click the "Remove" button.
+5. Press Tab key until the button "Add" receives focus.
+6. Press Enter key to click the "Add" button.
+7. Repeat Steps 1 and 2.
+8. Repeat Steps 3 and 4.
+9. Repeat Steps 5 and 6.
+### Expected result:
+1. The checkbox " A checkbox" is focused.
+2. The "A checkbox" is checked.
+3. The "Remove" button is focused.
+4. The text "Wait for it" and indeterminate progress bar are appeared.
+The "A checkbox" is removed and not displayed at the page.
+The button title "Remove" changed to "Add".
+The text "It's gone!" is appeared.
+5. The "Add" button is focused.
+6. The text "Wait for it" and indeterminate progress bar are appeared.
+The "A checkbox" is appeared and has unchecked state.
+The button title "Add" changed to "Remove".
+The text "It's gone!" changed to "It's back!".
+7. The checkbox " A checkbox" is focused.
+The "A checkbox" is checked.
+8. The "Remove" button is focused.
+The text "Wait for it" and indeterminate progress bar are appeared.
+The "A checkbox" is removed and not displayed at the page.
+The button title "Remove" changed to "Add".
+The text "It's gone!" is appeared.
+9. The "Add" button is focused.
+The text "Wait for it" and indeterminate progress bar are appeared.
+The "A checkbox" with unchecked state and text "A checkbox" is displayed under the checkbox.
+The button title "Add" changed to "Remove".
+The text "It's gone!" changed to "It's back!".
+
+## TC46 – Navigate, select and change input field section state using keyboard
+### Precondition:
+- The Dynamic Controls page https://the-internet.herokuapp.com/dynamic_controls is opened.
+### Steps to reproduce:
+1. Press Tab key until the button "Enable" receives focus.
+2. Press Enter key to click the "Enable" button.
+3. Press Tab key until the input field receives focus.
+4. Enter a value to the input field (e.g. "$And40")
+5. Press Tab key until the button "Disable" receives focus.
+6. Press Enter key to click the "Disable" button.
+### Expected result:
+1. The "Enable" button is focused.
+2. The text "Wait for it" and indeterminate progress bar are appeared.
+The state of the input field became enabled.
+The button title "Enable" changed to "Disable".
+The text "It's enabled!" is appeared.
+3. The input field is focused.
+4. The entered value is displayed into the input field
+5. The "Disable" button is focused.
+6. The text "Wait for it" and indeterminate progress bar are appeared.
+The state of the input field became disabled and the text entered by Step 4 is displayed.
+The button title "Disable" changed to "Enable".
+The text "It's enabled!" changed to "It's disabled!".
+
+
+</details>
