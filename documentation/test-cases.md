@@ -515,11 +515,11 @@
 3. Click the "Add" button
 ### Expected result:
 1. The initial state of the checkbox "A checkbox" is unchecked.
-2. The text "Wait for it" and indeterminate progress bar are appeared.
+2. The text "Wait for it..." and indeterminate progress bar are appeared.
 The "A checkbox" is removed and not displayed at the page.
 The button title "Remove" changed to "Add".
 The text "It's gone!" is appeared.
-3. The text "Wait for it" and indeterminate progress bar are appeared.
+3. The text "Wait for it..." and indeterminate progress bar are appeared.
 The "A checkbox" is appeared and has unchecked state.
 The button title "Add" changed to "Remove".
 The text "It's gone!" changed to "It's back!".
@@ -539,30 +539,30 @@ The text "It's gone!" changed to "It's back!".
 ### Expected result:
 1. The initial state of the checkbox "A checkbox" is unchecked.
 2. The "A checkbox" is became checked.
-3. The text "Wait for it" and indeterminate progress bar are appeared.
+3. The text "Wait for it..." and indeterminate progress bar are appeared.
 The "A checkbox" is removed and not displayed at the page.
 The button title "Remove" changed to "Add".
 The text "It's gone!" is appeared.
-4. The text "Wait for it" and indeterminate progress bar are appeared.
+4. The text "Wait for it..." and indeterminate progress bar are appeared.
 The "A checkbox" is appeared and has unchecked state.
 The button title "Add" changed to "Remove".
 The text "It's gone!" changed to "It's back!".
 5. The "A checkbox" is became checked.
-The text "Wait for it" and indeterminate progress bar are appeared.
+The text "Wait for it..." and indeterminate progress bar are appeared.
 The checkbox "A checkbox" is removed and just text "A checkbox" is displayed at the page.
 The button title "Remove" changed to "Add".
 The text "It's gone!" is displayed.
-6. The text "Wait for it" and indeterminate progress bar are appeared.
+6. The text "Wait for it..." and indeterminate progress bar are appeared.
 The "A checkbox" is appeared with unchecked state and the text "A checkbox" is displayed under the checkbox.
 The button title "Add" changed to "Remove".
 The text "It's gone!" changed to "It's back!".
 7. The "A checkbox" is became checked.
-The text "Wait for it" and indeterminate progress bar are appeared.
+The text "Wait for it..." and indeterminate progress bar are appeared.
 The checkbox "A checkbox" is removed and the text "A checkbox" is displayed 2 times at the page.
 The button title "Remove" changed to "Add".
 The text "It's gone!" is displayed.
-8. The text "Wait for it" and indeterminate progress bar are appeared.
-The "A checkbox" is appeared with unchecked state and the text "A checkbox" is displayed 2 times under the checkbox.
+8. The text "Wait for it..." and indeterminate progress bar are appeared.
+The "A checkbox" is appeared with unchecked state and the text "A checkbox" is displayed 3 times under the checkbox.
 The button title "Add" changed to "Remove".
 The text "It's gone!" changed to "It's back!".
 
@@ -576,12 +576,12 @@ The text "It's gone!" changed to "It's back!".
 4. Click the "Disable" button
 ### Expected result:
 1. The initial state of the input field is disabled.
-2. The text "Wait for it" and indeterminate progress bar are appeared.
+2. The text "Wait for it..." and indeterminate progress bar are appeared.
 The state of the input field became enabled.
 The button title "Enable" changed to "Disable".
 The text "It's enabled!" is appeared.
 3. The entered text displayed into the input field
-4. The text "Wait for it" and indeterminate progress bar are appeared.
+4. The text "Wait for it..." and indeterminate progress bar are appeared.
 The state of the input field became disabled and the text entered by Step 3 is displayed.
 The button title "Disable" changed to "Enable".
 The text "It's enabled!" changed to "It's disabled!".
@@ -597,7 +597,7 @@ The text "It's enabled!" changed to "It's disabled!".
 5. Click the "Add" button
 6. Click the browser Refresh button
 ### Expected result:
-1. The text "Wait for it" and indeterminate progress bar are appeared.
+1. The text "Wait for it..." and indeterminate progress bar are appeared.
 The "A checkbox" is removed and not displayed at the page.
 The button title "Remove" changed to "Add".
 The text "It's gone!" is appeared.
@@ -605,11 +605,11 @@ The text "It's gone!" is appeared.
 The initial state of the checkbox "A checkbox" is unchecked.
 The button title "Remove" is displayed.
 3. The "A checkbox" state is became cheked.
-4. The text "Wait for it" and indeterminate progress bar are appeared.
+4. The text "Wait for it..." and indeterminate progress bar are appeared.
 The "A checkbox" is removed and not displayed at the page.
 The button title "Remove" changed to "Add".
 The text "It's gone!" is appeared.
-5. The text "Wait for it" and indeterminate progress bar are appeared.
+5. The text "Wait for it..." and indeterminate progress bar are appeared.
 The "A checkbox" is appeared and has unchecked state.
 The button title "Add" changed to "Remove".
 The text "It's gone!" changed to "It's back!".
@@ -629,7 +629,7 @@ The button title "Enable" is displayed.
 4. Click "Disable" button
 5. Click the browser Refresh button
 ### Expected result:
-1. The text "Wait for it" and indeterminate progress bar are appeared.
+1. The text "Wait for it..." and indeterminate progress bar are appeared.
 The state of the input field became enabled.
 The button title "Enable" changed to "Disable".
 The text "It's enabled!" is appeared.
@@ -637,7 +637,7 @@ The text "It's enabled!" is appeared.
 The initial state of the input field is disabled.
 The button title "Enable" is displayed.
 3. The entered text displayed into the input field
-4. The text "Wait for it" and indeterminate progress bar are appeared.
+4. The text "Wait for it..." and indeterminate progress bar are appeared.
 The state of the input field became disabled and the text entered by Step 3 is displayed.
 The button title "Disable" changed to "Enable".
 The text "It's enabled!" changed to "It's disabled!".
@@ -662,24 +662,24 @@ The button title "Enable" is displayed.
 1. The checkbox " A checkbox" is focused.
 2. The "A checkbox" is checked.
 3. The "Remove" button is focused.
-4. The text "Wait for it" and indeterminate progress bar are appeared.
+4. The text "Wait for it..." and indeterminate progress bar are appeared.
 The "A checkbox" is removed and not displayed at the page.
 The button title "Remove" changed to "Add".
 The text "It's gone!" is appeared.
 5. The "Add" button is focused.
-6. The text "Wait for it" and indeterminate progress bar are appeared.
+6. The text "Wait for it..." and indeterminate progress bar are appeared.
 The "A checkbox" is appeared and has unchecked state.
 The button title "Add" changed to "Remove".
 The text "It's gone!" changed to "It's back!".
 7. The checkbox " A checkbox" is focused.
 The "A checkbox" is checked.
 8. The "Remove" button is focused.
-The text "Wait for it" and indeterminate progress bar are appeared.
+The text "Wait for it..." and indeterminate progress bar are appeared.
 The "A checkbox" is removed and not displayed at the page.
 The button title "Remove" changed to "Add".
 The text "It's gone!" is appeared.
 9. The "Add" button is focused.
-The text "Wait for it" and indeterminate progress bar are appeared.
+The text "Wait for it..." and indeterminate progress bar are appeared.
 The "A checkbox" with unchecked state and text "A checkbox" is displayed under the checkbox.
 The button title "Add" changed to "Remove".
 The text "It's gone!" changed to "It's back!".
@@ -696,14 +696,14 @@ The text "It's gone!" changed to "It's back!".
 6. Press Enter key to click the "Disable" button.
 ### Expected result:
 1. The "Enable" button is focused.
-2. The text "Wait for it" and indeterminate progress bar are appeared.
+2. The text "Wait for it..." and indeterminate progress bar are appeared.
 The state of the input field became enabled.
 The button title "Enable" changed to "Disable".
 The text "It's enabled!" is appeared.
 3. The input field is focused.
 4. The entered value is displayed into the input field
 5. The "Disable" button is focused.
-6. The text "Wait for it" and indeterminate progress bar are appeared.
+6. The text "Wait for it..." and indeterminate progress bar are appeared.
 The state of the input field became disabled and the text entered by Step 4 is displayed.
 The button title "Disable" changed to "Enable".
 The text "It's enabled!" changed to "It's disabled!".
