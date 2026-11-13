@@ -427,16 +427,19 @@
 1. Open the Broken Images page https://the-internet.herokuapp.com/broken_images
 2. Verify that the page header "Broken Images" is displayed
 3. Verify that 3 `<img>` elements are displayed on the page
-4. Verify that the text "Powered by Elemental Selenium" is displayed
+4. Verify that the text "Powered by Elemental Selenium and Sauce Labs" is displayed
 5. Verify that the "Elemental Selenium" link is displayed
+6. Verify that the "Sauce Labs" link is displayed
 ### Expected result:
 - The Broken Images page loaded successfully: 
     - URL is https://the-internet.herokuapp.com/broken_images
     - The document `readyState` is `complete`
 - The "Broken Images" header is displayed
 - Three `<img>` elements are displayed
-- The text "Powered by Elemental Selenium" is displayed
+- The text "Powered by Elemental Selenium and Sauce Labs" is displayed
 - The "Elemental Selenium" link is displayed
+- The "Sauce Labs" link is displayed
+
 
 ## TC37 – Verify image loading
 ### Precondition:
@@ -475,8 +478,9 @@
 7. Verify that the second subheader "Enable/disable" is displayed
 8. Verify that the input field is displayed
 9. Verify that button "Enable" is displayed
-10. Verify that the text "Powered by Elemental Selenium" is displayed
+10. Verify that the text "Powered by Elemental Selenium and Sauce Labs" is displayed
 11. Verify that the "Elemental Selenium" link is displayed
+12. Verify that the "Sauce Labs" link is displayed
 ### Expected result:
 1. The Dynamic Controls page loaded successfully: 
     - URL is https://the-internet.herokuapp.com/dynamic_controls
@@ -489,8 +493,9 @@
 7. The subheader "Enable/disable" is displayed
 8. The input field is displayed
 9. The button "Enable" is displayed
-10. The text "Powered by Elemental Selenium" is displayed
-11. The "Elemental Selenium" link is displayed- The text "Powered by Elemental 
+10. The text "Powered by Elemental Selenium and Sauce Labs" is displayed
+11. The "Elemental Selenium" link is displayed
+12. The "Sauce Labs" link is displayed
 
 ## TC39 – Verify checkbox initial state and changes
 ### Precondition:
@@ -513,11 +518,11 @@
 3. Click the "Add" button
 ### Expected result:
 1. The initial state of the checkbox "A checkbox" is unchecked.
-2. The text "Wait for it" and indeterminate progress bar are appeared.
+2. The text "Wait for it..." and indeterminate progress bar are appeared.
 The "A checkbox" is removed and not displayed at the page.
 The button title "Remove" changed to "Add".
 The text "It's gone!" is appeared.
-3. The text "Wait for it" and indeterminate progress bar are appeared.
+3. The text "Wait for it..." and indeterminate progress bar are appeared.
 The "A checkbox" is appeared and has unchecked state.
 The button title "Add" changed to "Remove".
 The text "It's gone!" changed to "It's back!".
@@ -537,30 +542,30 @@ The text "It's gone!" changed to "It's back!".
 ### Expected result:
 1. The initial state of the checkbox "A checkbox" is unchecked.
 2. The "A checkbox" is became checked.
-3. The text "Wait for it" and indeterminate progress bar are appeared.
+3. The text "Wait for it..." and indeterminate progress bar are appeared.
 The "A checkbox" is removed and not displayed at the page.
 The button title "Remove" changed to "Add".
 The text "It's gone!" is appeared.
-4. The text "Wait for it" and indeterminate progress bar are appeared.
+4. The text "Wait for it..." and indeterminate progress bar are appeared.
 The "A checkbox" is appeared and has unchecked state.
 The button title "Add" changed to "Remove".
 The text "It's gone!" changed to "It's back!".
 5. The "A checkbox" is became checked.
-The text "Wait for it" and indeterminate progress bar are appeared.
+The text "Wait for it..." and indeterminate progress bar are appeared.
 The checkbox "A checkbox" is removed and just text "A checkbox" is displayed at the page.
 The button title "Remove" changed to "Add".
 The text "It's gone!" is displayed.
-6. The text "Wait for it" and indeterminate progress bar are appeared.
+6. The text "Wait for it..." and indeterminate progress bar are appeared.
 The "A checkbox" is appeared with unchecked state and the text "A checkbox" is displayed under the checkbox.
 The button title "Add" changed to "Remove".
 The text "It's gone!" changed to "It's back!".
 7. The "A checkbox" is became checked.
-The text "Wait for it" and indeterminate progress bar are appeared.
+The text "Wait for it..." and indeterminate progress bar are appeared.
 The checkbox "A checkbox" is removed and the text "A checkbox" is displayed 2 times at the page.
 The button title "Remove" changed to "Add".
 The text "It's gone!" is displayed.
-8. The text "Wait for it" and indeterminate progress bar are appeared.
-The "A checkbox" is appeared with unchecked state and the text "A checkbox" is displayed 2 times under the checkbox.
+8. The text "Wait for it..." and indeterminate progress bar are appeared.
+The "A checkbox" is appeared with unchecked state and the text "A checkbox" is displayed 3 times under the checkbox.
 The button title "Add" changed to "Remove".
 The text "It's gone!" changed to "It's back!".
 
@@ -574,12 +579,12 @@ The text "It's gone!" changed to "It's back!".
 4. Click the "Disable" button
 ### Expected result:
 1. The initial state of the input field is disabled.
-2. The text "Wait for it" and indeterminate progress bar are appeared.
+2. The text "Wait for it..." and indeterminate progress bar are appeared.
 The state of the input field became enabled.
 The button title "Enable" changed to "Disable".
 The text "It's enabled!" is appeared.
 3. The entered text displayed into the input field
-4. The text "Wait for it" and indeterminate progress bar are appeared.
+4. The text "Wait for it..." and indeterminate progress bar are appeared.
 The state of the input field became disabled and the text entered by Step 3 is displayed.
 The button title "Disable" changed to "Enable".
 The text "It's enabled!" changed to "It's disabled!".
@@ -595,27 +600,25 @@ The text "It's enabled!" changed to "It's disabled!".
 5. Click the "Add" button
 6. Click the browser Refresh button
 ### Expected result:
-1. The text "Wait for it" and indeterminate progress bar are appeared.
+1. The text "Wait for it..." and indeterminate progress bar are appeared.
 The "A checkbox" is removed and not displayed at the page.
 The button title "Remove" changed to "Add".
 The text "It's gone!" is appeared.
-2.The Checkbox section got initial state after refresh:
+2. The Checkbox section got initial state after refresh:
 The initial state of the checkbox "A checkbox" is unchecked.
 The button title "Remove" is displayed.
 3. The "A checkbox" state is became cheked.
-4. The text "Wait for it" and indeterminate progress bar are appeared.
+4. The text "Wait for it..." and indeterminate progress bar are appeared.
 The "A checkbox" is removed and not displayed at the page.
 The button title "Remove" changed to "Add".
 The text "It's gone!" is appeared.
-5. The text "Wait for it" and indeterminate progress bar are appeared.
+5. The text "Wait for it..." and indeterminate progress bar are appeared.
 The "A checkbox" is appeared and has unchecked state.
 The button title "Add" changed to "Remove".
 The text "It's gone!" changed to "It's back!".
-6.The Checkbox and Input Field sections got initial state after refresh:
+6. The Checkbox sections got initial state after refresh:
 The initial state of the checkbox "A checkbox" is unchecked.
 The button title "Remove" is displayed.
-The initial state of the input field is disabled.
-The button title "Enable" is displayed.
 
 ## TC44 – Verify Iput field section state after refresh
 ### Precondition:
@@ -623,23 +626,23 @@ The button title "Enable" is displayed.
 ### Steps to reproduce:
 1. Click the "Enable" button
 2. Click the browser Refresh button
-3. Navigate to the Input field and enter an input value (e.g. "Input123$")
+3. Repeat Step 1 and enter an input value (e.g. "Input123$")
 4. Click "Disable" button
 5. Click the browser Refresh button
 ### Expected result:
-1. The text "Wait for it" and indeterminate progress bar are appeared.
+1. The text "Wait for it..." and indeterminate progress bar are appeared.
 The state of the input field became enabled.
 The button title "Enable" changed to "Disable".
 The text "It's enabled!" is appeared.
-2.The Input Field section got initial state after refresh:
+2. The Input Field section got initial state after refresh:
 The initial state of the input field is disabled.
 The button title "Enable" is displayed.
 3. The entered text displayed into the input field
-4. The text "Wait for it" and indeterminate progress bar are appeared.
+4. The text "Wait for it..." and indeterminate progress bar are appeared.
 The state of the input field became disabled and the text entered by Step 3 is displayed.
 The button title "Disable" changed to "Enable".
 The text "It's enabled!" changed to "It's disabled!".
-5.The Input Field section got initial state after refresh:
+5. The Input Field section got initial state after refresh:
 The initial state of the input field is disabled.
 The button title "Enable" is displayed.
 
@@ -660,24 +663,24 @@ The button title "Enable" is displayed.
 1. The checkbox " A checkbox" is focused.
 2. The "A checkbox" is checked.
 3. The "Remove" button is focused.
-4. The text "Wait for it" and indeterminate progress bar are appeared.
+4. The text "Wait for it..." and indeterminate progress bar are appeared.
 The "A checkbox" is removed and not displayed at the page.
 The button title "Remove" changed to "Add".
 The text "It's gone!" is appeared.
 5. The "Add" button is focused.
-6. The text "Wait for it" and indeterminate progress bar are appeared.
+6. The text "Wait for it..." and indeterminate progress bar are appeared.
 The "A checkbox" is appeared and has unchecked state.
 The button title "Add" changed to "Remove".
 The text "It's gone!" changed to "It's back!".
 7. The checkbox " A checkbox" is focused.
 The "A checkbox" is checked.
 8. The "Remove" button is focused.
-The text "Wait for it" and indeterminate progress bar are appeared.
+The text "Wait for it..." and indeterminate progress bar are appeared.
 The "A checkbox" is removed and not displayed at the page.
 The button title "Remove" changed to "Add".
 The text "It's gone!" is appeared.
 9. The "Add" button is focused.
-The text "Wait for it" and indeterminate progress bar are appeared.
+The text "Wait for it..." and indeterminate progress bar are appeared.
 The "A checkbox" with unchecked state and text "A checkbox" is displayed under the checkbox.
 The button title "Add" changed to "Remove".
 The text "It's gone!" changed to "It's back!".
@@ -694,14 +697,14 @@ The text "It's gone!" changed to "It's back!".
 6. Press Enter key to click the "Disable" button.
 ### Expected result:
 1. The "Enable" button is focused.
-2. The text "Wait for it" and indeterminate progress bar are appeared.
+2. The text "Wait for it..." and indeterminate progress bar are appeared.
 The state of the input field became enabled.
 The button title "Enable" changed to "Disable".
 The text "It's enabled!" is appeared.
 3. The input field is focused.
 4. The entered value is displayed into the input field
 5. The "Disable" button is focused.
-6. The text "Wait for it" and indeterminate progress bar are appeared.
+6. The text "Wait for it..." and indeterminate progress bar are appeared.
 The state of the input field became disabled and the text entered by Step 4 is displayed.
 The button title "Disable" changed to "Enable".
 The text "It's enabled!" changed to "It's disabled!".
