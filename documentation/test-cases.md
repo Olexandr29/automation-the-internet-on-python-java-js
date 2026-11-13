@@ -601,7 +601,7 @@ The text "It's enabled!" changed to "It's disabled!".
 The "A checkbox" is removed and not displayed at the page.
 The button title "Remove" changed to "Add".
 The text "It's gone!" is appeared.
-2.The Checkbox section got initial state after refresh:
+2. The Checkbox section got initial state after refresh:
 The initial state of the checkbox "A checkbox" is unchecked.
 The button title "Remove" is displayed.
 3. The "A checkbox" state is became cheked.
@@ -613,11 +613,9 @@ The text "It's gone!" is appeared.
 The "A checkbox" is appeared and has unchecked state.
 The button title "Add" changed to "Remove".
 The text "It's gone!" changed to "It's back!".
-6.The Checkbox and Input Field sections got initial state after refresh:
+6. The Checkbox sections got initial state after refresh:
 The initial state of the checkbox "A checkbox" is unchecked.
 The button title "Remove" is displayed.
-The initial state of the input field is disabled.
-The button title "Enable" is displayed.
 
 ## TC44 – Verify Iput field section state after refresh
 ### Precondition:
