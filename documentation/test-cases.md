@@ -427,16 +427,19 @@
 1. Open the Broken Images page https://the-internet.herokuapp.com/broken_images
 2. Verify that the page header "Broken Images" is displayed
 3. Verify that 3 `<img>` elements are displayed on the page
-4. Verify that the text "Powered by Elemental Selenium" is displayed
+4. Verify that the text "Powered by Elemental Selenium and Sauce Labs" is displayed
 5. Verify that the "Elemental Selenium" link is displayed
+6. Verify that the "Sauce Labs" link is displayed
 ### Expected result:
 - The Broken Images page loaded successfully: 
     - URL is https://the-internet.herokuapp.com/broken_images
     - The document `readyState` is `complete`
 - The "Broken Images" header is displayed
 - Three `<img>` elements are displayed
-- The text "Powered by Elemental Selenium" is displayed
+- The text "Powered by Elemental Selenium and Sauce Labs" is displayed
 - The "Elemental Selenium" link is displayed
+- The "Sauce Labs" link is displayed
+
 
 ## TC37 – Verify image loading
 ### Precondition:
