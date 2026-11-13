@@ -623,7 +623,7 @@ The button title "Remove" is displayed.
 ### Steps to reproduce:
 1. Click the "Enable" button
 2. Click the browser Refresh button
-3. Navigate to the Input field and enter an input value (e.g. "Input123$")
+3. Repeat Step 1 and enter an input value (e.g. "Input123$")
 4. Click "Disable" button
 5. Click the browser Refresh button
 ### Expected result:
@@ -631,7 +631,7 @@ The button title "Remove" is displayed.
 The state of the input field became enabled.
 The button title "Enable" changed to "Disable".
 The text "It's enabled!" is appeared.
-2.The Input Field section got initial state after refresh:
+2. The Input Field section got initial state after refresh:
 The initial state of the input field is disabled.
 The button title "Enable" is displayed.
 3. The entered text displayed into the input field
@@ -639,7 +639,7 @@ The button title "Enable" is displayed.
 The state of the input field became disabled and the text entered by Step 3 is displayed.
 The button title "Disable" changed to "Enable".
 The text "It's enabled!" changed to "It's disabled!".
-5.The Input Field section got initial state after refresh:
+5. The Input Field section got initial state after refresh:
 The initial state of the input field is disabled.
 The button title "Enable" is displayed.
 
