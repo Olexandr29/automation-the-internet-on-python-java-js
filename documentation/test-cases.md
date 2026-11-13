@@ -475,8 +475,9 @@
 7. Verify that the second subheader "Enable/disable" is displayed
 8. Verify that the input field is displayed
 9. Verify that button "Enable" is displayed
-10. Verify that the text "Powered by Elemental Selenium" is displayed
+10. Verify that the text "Powered by Elemental Selenium and Sauce Labs" is displayed
 11. Verify that the "Elemental Selenium" link is displayed
+12. Verify that the "Sauce Labs" link is displayed
 ### Expected result:
 1. The Dynamic Controls page loaded successfully: 
     - URL is https://the-internet.herokuapp.com/dynamic_controls
@@ -489,8 +490,9 @@
 7. The subheader "Enable/disable" is displayed
 8. The input field is displayed
 9. The button "Enable" is displayed
-10. The text "Powered by Elemental Selenium" is displayed
-11. The "Elemental Selenium" link is displayed- The text "Powered by Elemental 
+10. The text "Powered by Elemental Selenium and Sauce Labs" is displayed
+11. The "Elemental Selenium" link is displayed
+12. The "Sauce Labs" link is displayed
 
 ## TC39 – Verify checkbox initial state and changes
 ### Precondition:
