@@ -450,10 +450,10 @@
 3. Repeat Steps 1-2 for the second image.
 4. Repeat Steps 1-2 for the third image.
 ### Expected result:
-- No broken image indicator or missing image placeholder is displayed:
-    - The first image is displayed correctly.
-    - The second image is displayed correctly.
-    - The third image is displayed correctly.
+    The first image is broken.
+    The second image is broken.
+    The third image is displayed correctly, no broken image indicator or missing image placeholder is displayed.
+
 
 
 
