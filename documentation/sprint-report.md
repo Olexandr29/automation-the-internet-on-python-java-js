@@ -741,8 +741,8 @@ The goal of Sprint 5 is to complete the Dynamic Controls feature, close all task
 
 <details><summary>3) Completed and not completed work</summary>
 
-<!-- #### Completed: 13 / 29 Issues
-#### Completion: 44,8% -->
+#### Completed: 8 / 22 Issues
+#### Completion: 36,4%
 
 
 ### Completed:
@@ -763,7 +763,7 @@ The goal of Sprint 5 is to complete the Dynamic Controls feature, close all task
 
 ### Sprint Progress
 
-<!-- ![GitHub Project - sprint-2 progress](images/sprint-4-2-progress(29-13).png) -->
+![GitHub Project - sprint-2 progress](images/sprint-5-2-progress(22-8).png)
 
 ### Pull Requests
 
@@ -809,6 +809,8 @@ automation-the-internet-on-js:
 - Measured the test execution time across three runs (23.8–24.6 seconds) to determine an appropriate timeout.
 - Configured a test-specific Mocha timeout of 30 seconds instead of increasing the global timeout.
 - Verified the fix by successfully executing TC41 multiple times, ensuring the test passes with the updated configuration.
+- Implemented and integrated a reusable Footer component with shared assertions to verify footer visibility, text content, and link availability across page tests.
+
 
 ### What Didn't Go Well
 <!-- - The task "Test Automation for Dynamic Controls feature" turned out to be more complex than initially estimated, requiring more time than expected. -->
