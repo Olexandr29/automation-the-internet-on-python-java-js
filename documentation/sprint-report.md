@@ -695,3 +695,134 @@ automation-the-internet-on-js:
 </details>
 
 </details>
+
+---
+# Sprint 5 
+
+<details><summary><b>Report</b></summary>
+
+<details><summary>1) Sprint Goal</summary>
+
+The goal of Sprint 5 is to complete the Dynamic Controls feature, close all tasks from previous Sprint, make refactoring, and continue Docker implementation.
+</details>
+
+<details><summary>2) Planned Work</summary>
+
+- Issue #22 [Test Automation for Dynamic Controls feature](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/22):
+	- Issue #20 JS: Test Automation for Dynamic Controls feature
+	- Issue #25 Java: Test Automation for Dynamic Controls feature
+
+- Issue #27 [Fix Failing Automated Tests](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/27):
+	- Issue #24 JS: Fix Failing Automated Tests
+	- Issue #29 Java: Fix Failing Automated Tests
+	- Issue #31 [Update test cases to reflect application changes](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/31)
+
+- Issue #28 [Configure and Use a Centralized Base URL](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/28):
+	- Issue #25 JS: Configure and Use a Centralized Base URL	
+	- Issue #30 Java: Configure and Use a Centralized Base URL	
+
+- Issue #24 [Create first Dockerfile](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/24):
+	- Issue #21 Create first Dockerfile for JavaScript
+	- Issue #26 Create first Dockerfile for Java
+
+- Issue #23 [Create Report for Sprint 4](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/23)
+
+- Issue #25 [Optimize CI Workflow Triggers](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/25):
+		- Issue #27 Java: Optimize CI Workflow Triggers
+- Issue #34 [Refactor Footer Component](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/34):
+	- Issue #33 Java: Refactor Footer Component
+	- Issue #31 JS: Refactor Footer Component
+	- Issue #118 Python: Refactor Footer Component
+- Issue # 33 [Standardize EPICs Scope Formatting and Reprioritize Remaining Tasks](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/33)
+- Issue # 32 [Create Report for Sprint 5](https://github.com/Olexandr29/automation-the-internet-on-python-java-js/issues/32)
+
+**Total: 22 Issues**
+</details>
+
+<details><summary>3) Completed and not completed work</summary>
+
+#### Completed: 8 / 22 Issues
+#### Completion: 36,4%
+
+
+### Completed:
+
+
+
+	
+### Not completed:
+
+
+
+</details>
+
+<details><summary>4) Sprint Review</summary>
+
+### GitHub Project Board
+![GitHub Project Board](images/sprint-5-1-planed-tasks(22)-excluded-Sprint4-Dynamic-Controls.png)
+
+### Sprint Progress
+
+![GitHub Project - sprint-2 progress](images/sprint-5-2-progress(22-8).png)
+
+### Pull Requests
+
+<!-- - automation-the-internet-on-python-java-js:
+
+2 created, 1 merged
+
+- automation-the-internet-on-java:
+
+2 created, 2 merged 
+
+automation-the-internet-on-js:
+
+4 created, 3 merged
+
+- automation-the-internet-python:
+
+7 created, 7 merged
+
+
+---
+15 PRs created
+
+13 PRs merged -->
+
+### Test Automation
+<!-- 9 automated tests implemented
+
+### Test Execution
+46 tests:
+
+46 Passed, 0 Failed -->
+
+### [Allure Report](https://olexandr29.github.io/automation-the-internet-java/)
+
+</details>
+
+
+<details><summary>5) Sprint Retrospective</summary>
+
+### What Went Well
+- Debugged TC41 by analyzing execution logs and tracing the timeout to the test's overall execution time.
+- Measured the test execution time across three runs (23.8–24.6 seconds) to determine an appropriate timeout.
+- Configured a test-specific Mocha timeout of 30 seconds instead of increasing the global timeout.
+- Verified the fix by successfully executing TC41 multiple times, ensuring the test passes with the updated configuration.
+- Implemented and integrated a reusable Footer component with shared assertions to verify footer visibility, text content, and link availability across page tests.
+
+
+### What Didn't Go Well
+<!-- - The task "Test Automation for Dynamic Controls feature" turned out to be more complex than initially estimated, requiring more time than expected. -->
+
+### Improvement Actions
+<!-- - Set a limit of 22 tasks for the Sprint backlog to more realistic workload.
+- Prepare a reserve task list in case of all planned tasks are completed before the end of the Sprint. -->
+
+## Next Sprint
+<!-- 
+- Complete tasks that left from previous Sprint.
+- Refactor the automation framework to improve code quality фтв maintainability. -->
+</details>
+
+</details>
