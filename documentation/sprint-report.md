@@ -759,7 +759,7 @@ The goal of Sprint 5 is to complete the Dynamic Controls feature, close all task
 <details><summary>4) Sprint Review</summary>
 
 ### GitHub Project Board
-<!-- ![GitHub Project Board](images/sprint-4-1-planed-tasks(29).png) -->
+![GitHub Project Board](images/sprint-5-1-planed-tasks(22)-excluded-Sprint4-Dynamic-Controls.png)
 
 ### Sprint Progress
 
