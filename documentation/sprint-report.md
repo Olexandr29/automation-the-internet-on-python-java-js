@@ -741,8 +741,8 @@ The goal of Sprint 5 is to complete the Dynamic Controls feature, close all task
 
 <details><summary>3) Completed and not completed work</summary>
 
-#### Completed: 8 / 22 Issues
-#### Completion: 36,4%
+#### Completed: 10 / 22 Issues
+#### Completion: 45,4%
 
 
 ### Completed:
@@ -790,12 +790,12 @@ automation-the-internet-on-js:
 13 PRs merged -->
 
 ### Test Automation
-<!-- 9 automated tests implemented
+18 automated tests implemented
 
 ### Test Execution
-46 tests:
+45*3=135 tests:
 
-46 Passed, 0 Failed -->
+135 Passed, 0 Failed -->
 
 ### [Allure Report](https://olexandr29.github.io/automation-the-internet-java/)
 
@@ -809,6 +809,7 @@ automation-the-internet-on-js:
 - Measured the test execution time across three runs (23.8–24.6 seconds) to determine an appropriate timeout.
 - Configured a test-specific Mocha timeout of 30 seconds instead of increasing the global timeout.
 - Verified the fix by successfully executing TC41 multiple times, ensuring the test passes with the updated configuration.
+- Implemented reusable helper methods to verify page content after removal and addition.
 - Implemented and integrated a reusable Footer component with shared assertions to verify footer visibility, text content, and link availability across page tests.
 
 
